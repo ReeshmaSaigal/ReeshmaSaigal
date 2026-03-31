@@ -1,0 +1,64 @@
+.container-fluid
+{
+       background-color: #EDEDED;
+}
+.card
+{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0px 2px #D3D3D3;
+}
+.toggle-container {
+    display: inline-block;
+  }
+  
+  .toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .toggle-label::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: transform 0.2s ease;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked + .toggle-label {
+    background-color: #4f11fc; /* Toggle button background color when checked */
+  }
+  
+  input[type="checkbox"]:checked + .toggle-label::before {
+    transform: translateX(20px); /* Move the toggle button to the right when checked */
+  }
+  
+  .toggle-text {
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+  .listIcon,.gridIcon
+  {
+   font-size :25px;
+
+  }
+  .listIcon:hover,.gridIcon:hover{
+    background-color: #40189D;
+    color: white;
+    
+  }
+  span{
+    font-weight: bold;
+  }

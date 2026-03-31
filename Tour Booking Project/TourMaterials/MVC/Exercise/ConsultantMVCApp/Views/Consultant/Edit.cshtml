@@ -1,0 +1,42 @@
+﻿@model ConsultantMVCApp.DTO.ConsultantDetailsDto
+@{
+    Layout = "_TourLayout";
+}
+<div class="card shadow p-4">
+    <h3>Edit Consultant</h3>
+
+    <form method="post">
+        <div class="mb-3">
+            <input asp-for="Id" class="form-control" hidden placeholder="First Name" />
+        </div>
+        <div class="mb-3">
+            <input asp-for="FirstName" class="form-control" placeholder="First Name" />
+        </div>
+
+        <div class="mb-3">
+            <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+        </div>
+
+        <div class="mb-3">
+            <input asp-for="Email" class="form-control" placeholder="Email" />
+        </div>
+
+        <div class="mb-3">
+            <input asp-for="TelephoneNo" class="form-control" placeholder="Phone" />
+
+        </div>
+        <div class="mb-3">
+            <input type="date" asp-for="DateOfBirth" class="form-control" placeholder="Date Of Birth" />
+        </div>
+
+        <div class="mb-3">
+            <input asp-for="Gender" class="form-control" placeholder="Gender" />
+        </div>
+        <div class="mb-3">
+            <input asp-for="UserName" class="form-control" placeholder="Username" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Update</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

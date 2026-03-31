@@ -1,0 +1,14 @@
+.container-fluid{
+    font-family: auto;
+}.card {
+  border-radius: 12px;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 6px 10px;
+}
+
+h5, h6 {
+  color: #333;
+} 

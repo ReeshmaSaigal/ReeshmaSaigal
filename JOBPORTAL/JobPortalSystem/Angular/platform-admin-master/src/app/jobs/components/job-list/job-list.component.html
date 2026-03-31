@@ -1,0 +1,110 @@
+<div class="cotainer-fluid m-1 bg-light">
+    <h1 class="fw-bold py-5">Job List</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-11  searchbar border border-2  m-3 p-2 rounded-5 bg-white">
+            <div class=" row input-group ">
+                <!-- Search input -->
+                <div class="col-md-9">
+                    <input type="text" [(ngModel)]="searchTerm" class="form-control border-0" (input)="filterJobs()"
+                        placeholder="Search by Title,Company or any jobs keyword" aria-label="Search">
+                </div>
+                <!-- Filter button -->
+                <!-- <div class="col-md-1 filter d-flex rounded-pill">
+                    Filter<i class="bi bi-search ps-2 text-primary"></i>
+                </div>
+                Find button -->
+                <!-- <div class="col-md-1 d-flex ms-2 find rounded-pill">
+                    Find<i class="bi bi-sliders ps-2  text-primary"></i>
+
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="row my-4">
+        <div class="col-md-2 py-1 small">Suggestions</div>
+        <!-- <div class="col-md-2 text-center my-auto small rounded-pill Suggestions">Your Skill</div> -->
+        <div class="col-md-2 text-center my-auto small rounded-pill Suggestions" (click)="filterJobsByName('Programmer')">
+            Programmer</div>
+        <div class="col-md-2 text-center my-auto small rounded-pill Suggestions" (click)="filterJobsByName('Software Engineer')">
+            Software Engineer</div>
+        <div class="col-md-2 text-center my-auto small rounded-pill Suggestions" (click)="filterJobsByName('Developer')">
+            Developer</div>
+        <div class="col-md-2 text-center my-auto small rounded-pill Suggestions" (click)="filterJobsByName('Accountant')">
+           Accounting</div>
+    </div>
+    <div class="row my-5 p-4">
+        <div class="col-md-3 ">
+            <p class="lh-1"><span class="fw-bold">Showing <span>{{jobs.length}}</span> Jobs Results</span><br>
+                <small class=" text-secondary">Based your preferences</small>
+            </p>
+        </div>
+        <!-- <div class="col-md-1 small d-flex justify-content-center">
+            <i class="bi bi-arrow-counterclockwise text-secondary"></i><p>Fulltime</p>
+        </div>
+        <div class="col-md-1 small  d-flex justify-content-center">
+            <i class="bi bi-check2-circle text-secondary"></i><p>Freelance</p>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center ">
+            <div class="toggle-container d-flex justify-content-center">
+                <label for="notification-toggle" class="toggle-text small">Details</label>
+                <input type="checkbox" id="notification-toggle">
+                <label for="notification-toggle" class="toggle-label"></label>
+            </div>
+        
+            <div class="toggle-container d-flex justify-content-center">
+                <label for="notification-toggle1" class="toggle-text small">Salary</label>
+                <input type="checkbox" id="notification-toggle1">
+                <label for="notification-toggle1" class="toggle-label1"></label>
+            </div>
+        </div>
+
+        <div class="col-md-4  d-flex justify-content-between align-items-center">
+            <div class="btn-group border border-primary rounded-pill">
+                <button type="button" class="btn  dropdown-toggle border-0" data-toggle="dropdown">
+                    <i class="bi bi-sort-down text-primary"></i> Newest <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Item 1</a>
+                    <a class="dropdown-item" href="#">Item 2</a>
+                    <a class="dropdown-item" href="#">Item 3</a>
+                </div>
+            </div>
+            <span class="border border-primary rounded-pill listIcon py-1 px-3"><i
+                 class="bi bi-list-task listIcon text-primary"></i></span>
+
+            <span class="border border-primary gridIcon rounded-pill py-1` px-3"><i
+                    class="bi bi-grid gridIcon  text-primary bi-5x"></i></span>-->
+
+    </div>
+    <div class="row  d-flex flex-row p-4">
+        <div class="col-md-4 " *ngFor="let job of filteredJobs">
+            <div class="card  border border-2 rounded bg-white p-2">
+                <div class="row">
+                    <div class="col-md-9">
+                        <small class="companyName  fw-bold text-center">Job Title : {{job.jobTitle}}</small><br>
+                        <small class="jobName h6 fw-bold text-center">Job Summary : {{job.jobSummary}}</small><br>
+                        <small class="fw-bold">Job Category Name : {{job.jobCategoryName}}</small><br>
+                        <span class="salary text-primary">Location : {{job.locationName}}</span>
+                    </div>
+                    <!-- <div class="col-md-3">
+                        <img [src]="job.companyLogo" class="card-img-top" alt="logo">
+                    </div> -->
+                </div>
+                <div class="card-body">
+                    <small class="fw-bold">Industry : {{job.industryName}}</small><br>
+                    <span class="small fw-bold">Posted Date : {{job.postedDate}}</span><br>
+                    <span class="postedByNavigationFirstName ">postedByNavigationFirstName :
+                        {{job.postedByNavigationFirstName}}</span><br>
+                    <span class="small fw-bold">Saved : {{job.saved}}</span>
+                    <div class="d-flex  justify-content-between">
+                        <span class="removeButton p-1 text-primary rounded-pill">Remove<i
+                                class="bi bi-trash3 text-primary p-2"></i></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ng-template #noDataMessage>
+            <p>No jobs available.</p>
+        </ng-template>
+    </div>

@@ -1,0 +1,103 @@
+.bg-color1{
+  background-color: #64b7f5;
+}
+
+.bg-color2{
+  background-color: #e5e6ea;
+}
+.bg-white{
+  background-color: #fff;
+}
+.column-height{
+
+  height: 740px;
+}
+.bg-image{
+  max-width: 50%;
+height: auto;
+}
+.custom-rounded
+{
+border-top-right-radius: 70px;
+border-bottom-right-radius: 70px;
+}
+/* .row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+} */
+.padding{
+  padding-right: 0px;
+}
+.font{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.border-radius {
+  border-top-left-radius: 62px;
+  border-bottom-left-radius: 62px;
+}
+
+/* sign in with google */
+.google-btn {
+  width: 400px;
+  height: 50px;
+  background-color: google-blue;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: white;
+  }
+  .google-icon {
+    position: absolute;
+    margin-top: 11px;
+   
+    width: 18px;
+    height: 18px;
+  }
+  .btn-text {
+    
+    margin: 11px 11px 0 0;
+    color: rgb(14, 13, 13);
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+  &:hover {
+    box-shadow: 0 0 6px google-blue;
+  }
+  &:active {
+    background: button-active-blue;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+/* end */
+
+.login-email{
+  color: #ebe5e5;
+  font-size: 9px;
+  font-family: auto;
+  font-weight:1700px;
+}
+input{
+  box-shadow: 2px 2px rgb(238, 242, 244);
+}
+.text-box-size{
+  height:50px;
+  width: 400px;
+}
+.btn{
+  height:50px;
+  width: 400px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #64b7f5;
+  border-radius: 0%;
+}

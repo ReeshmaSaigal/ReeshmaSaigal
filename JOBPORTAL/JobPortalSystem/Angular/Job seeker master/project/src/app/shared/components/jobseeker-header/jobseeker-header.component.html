@@ -1,0 +1,19 @@
+<header>
+    <nav>
+      <!-- <div class="logo">Logo <span class="word-wrap">Saved Jobs</span></div> -->
+      <div class="menu">
+        <!-- <a><img src="../../../../assets/images/notification-bing.png"></a> -->
+        <a><img [src]="pic"></a>
+
+        <button class="profile-button" (click)="toggleDropdown()"> <a href="#"><img src="../../../../assets//images/leslie.png" height="30px" width="30px"><b>{{user}}</b></a></button>
+        <ul class="dropdown-menu" [hidden]="!isDropdownOpen" (click)="handleMenuClick($event)">
+            <li><a >My Profile</a></li>
+            <li><a >Settings</a></li>
+            <li><a (click)="logout()">Logout</a></li>
+          </ul>
+      </div>
+      <div class="icon" (click)="toggleResponsive()">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+  </header>

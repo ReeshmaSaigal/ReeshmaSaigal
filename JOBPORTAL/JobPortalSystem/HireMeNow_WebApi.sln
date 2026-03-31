@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HireMeNow_WebApi", "HireMeNow_WebApi\HireMeNow_WebApi.csproj", "{FFB13AD7-2A86-4F56-AE52-8B388433689B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4CD46CC8-0202-4D19-84C7-4EF117C47378}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFB13AD7-2A86-4F56-AE52-8B388433689B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB13AD7-2A86-4F56-AE52-8B388433689B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB13AD7-2A86-4F56-AE52-8B388433689B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB13AD7-2A86-4F56-AE52-8B388433689B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD46CC8-0202-4D19-84C7-4EF117C47378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD46CC8-0202-4D19-84C7-4EF117C47378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD46CC8-0202-4D19-84C7-4EF117C47378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD46CC8-0202-4D19-84C7-4EF117C47378}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC36542E-8E01-4B3E-A9E6-57E8A2C66D93}
+	EndGlobalSection
+EndGlobal

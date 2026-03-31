@@ -1,0 +1,70 @@
+<div class="container mt-5">
+  <div class="mb-3">
+    <button type="button" class="btn btn-pill btn-filter" (click)="filterData('All')">All</button>
+    <button type="button" class="btn btn-pill btn-filter" (click)="filterData('Pending')">Pending</button>
+    <button type="button" class="btn btn-pill btn-filter" (click)="filterData('On-Hold')">On-Hold</button>
+    <button type="button" class="btn btn-pill btn-filter" (click)="filterData('Candidate')">Candidate</button>
+    <button type="button" class="btn btn-pill btn-filter" (click)="filterData('Approved')">Approved</button>
+  </div>
+
+  <table class="table table-responsive mt-4">
+    <thead>
+      <tr>
+        <th></th>
+        <th>ID</th>
+        <th>Date Applied</th>
+        <th>Company</th>
+        <th>Type</th>
+        <th>Position</th>
+        <th>Contact</th>
+        <th>Status</th>
+        <th> </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let registration of filteredRegistrations">
+        <td>
+          <input
+            type="checkbox"
+            [checked]="registration.checkbox"
+            (change)="toggleCheckbox(registration)"
+          />
+        </td>
+        <td>{{ registration.id }}</td>
+        <td>{{ registration.dateApplied}}</td>
+        <td>
+          <div class="d-flex align-items-center">
+            <img src="../../../../assets/images/messages/companyLogo.png" alt="Company Logo" class="mr-3" height="40" width="40" />
+            <div>
+              <p class="mb-0 ms-2 font-weight-bold">{{ registration.companyName }}</p>
+              <p class="mb-0 ms-2">{{ registration.jobRole }}</p>
+            </div>
+          </div>
+        </td>
+        <td>{{ registration.type }}</td>
+        <td>{{ registration.position }}</td>
+        <td>
+          <div class="d-flex align-items-center"> 
+            <img [src]="registration.contactPhone" alt="Contact Image" class="mr-3" height="30" width="30" />
+            <!-- <img [src]="registration.contactMail" alt="Contact Image" class="mr-3" height="40" width="40" />
+            <img [src]="registration.contactWhatsapp" alt="Contact Image" class="mr-3" height="40" width="40" /> -->
+          </div>
+        </td>
+        <td>
+          <button type="button" class="btn btn-pill"
+            [ngClass]="{
+              'btn-pending': registration.status === 'Pending',
+              'btn-on-hold': registration.status === 'On-Hold',
+              'btn-candidate': registration.status === 'Candidate',
+              'btn-approved': registration.status === 'Approved'
+            }"
+            (click)="changeStatus(registration)"> {{ registration.status }}
+          </button>
+        </td>
+        <td> 
+          <img src="../../../../assets/images/messages/Frame 2.png" alt="Company Logo" class="mr-3" height="20" width="20" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

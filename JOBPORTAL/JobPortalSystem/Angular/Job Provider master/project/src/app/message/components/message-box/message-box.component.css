@@ -1,0 +1,102 @@
+/* .message-box {
+    position: relative;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 0;
+  }
+  
+  .message-arrow {
+ 
+    width: 30px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(30deg);
+    top: -10px;
+    left: 50%;
+    margin-left: -10px;
+    z-index: 1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  .message-arrow.right {
+    top: 50%;
+    right: -10px;
+    margin-top: -10px;
+    transform: rotate(45deg);
+  }
+  
+  .message-content {
+    text-align: center;
+  }
+   */
+
+   .box {
+    width: 200px;
+    height: auto;
+    background-color: rgb(229, 224, 224);
+    color: #0b0b0b;
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+    margin-left: 20px;
+    float:right;
+   
+  }
+  .box-sender {
+    width: 250px;
+    height: auto;
+    background-color: #117EBD;
+    color: #0e0505;
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+    margin-left: 20px;
+    float:right;
+    left:200px;
+  }
+
+  .box.arrow-top {
+    margin-top: 40px;
+  }
+   
+  .box.arrow-top:after {
+    content: " ";
+    position: absolute;
+    right: 30px;
+    top: -15px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid black;
+  }
+
+  .box.arrow-right:after {
+    content: " ";
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: none;
+    border-left: 15px solid rgb(229, 224, 224);
+    border-bottom: 15px solid transparent;
+  }
+
+  .box-sender.arrow-left:after {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #117EBD;
+    border-left: none;
+    border-bottom: 15px solid transparent;
+  }
+  @media only screen and (min-width:240px) and (max-width: 768px){
+    .box{
+        display: block;
+        float: none;
+        margin: 40px auto;
+    }
+}
+

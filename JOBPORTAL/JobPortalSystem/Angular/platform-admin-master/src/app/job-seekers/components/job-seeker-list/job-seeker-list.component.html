@@ -1,0 +1,23 @@
+<div class="container-fluid p-4">
+    <h1 class="fw-bold py-5">Job Seekers</h1>
+    <div class="row">
+        <div class="col-sm-4 mb-4" *ngFor="let item of data">
+            <div class="card rounded-5 p-4">
+                <!-- <div class="logo d-flex justify-content-center my-2"><img [src]="item.image" alt="logo"></div> -->
+                <div class="name  flex-sm-column ">
+                                        <!-- <h5> {{item.name}}</h5> -->
+                    <!-- <p> {{item.qualification}}</p> -->
+                    <p><span>FirstName</span> : {{item.firstName}}</p>
+                    <p><span>UserName</span> : {{item.userName}}</p>
+                    <p><span>LastName</span>: {{item.lastName}}</p>
+                    <p><span>Phone</span> : {{item.phone}}</p>
+                    <p><span>Email</span> : {{item.email}}</p>
+                </div>
+                <!-- <div class="buttons d-flex justify-content-between mx-3 mb-3">
+                    <button class="rounded-5" >REMOVE</button>
+                    <button class="rounded-5 ">BLOCK</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container-fluid px-4">
+
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center"
+           asp-controller="Destinations" asp-action="Index">
+            <img src="~/images/logo.png" width="35" class="me-2" />
+        </a>
+
+        <!-- Toggle (Mobile) -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       asp-controller="Destinations"
+                       asp-action="touIndex">Home</a>
+                </li>
+
+               
+                <li class="nav-item">
+                    <a class="nav-link"
+                       asp-controller="Destinations"
+                       asp-action="Index">Manage Tours</a>
+                </li>
+
+               
+
+               </ul>
+
+            <!-- Profile Dropdown -->
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center"
+                       href="#"
+                       role="button"
+                       data-bs-toggle="dropdown">
+
+                        <div class="rounded-circle bg-primary text-white d-flex justify-content-center align-items-center me-2"
+                             style="width:32px;height:32px;font-size:14px;">
+                            LS
+                        </div>
+
+                        Lions Sports Club
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li>
+                            <a class="dropdown-item"
+                               asp-controller="Auth"
+                               asp-action="">@HttpContextAccessor.HttpContext.Session.GetString("UserName")</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item"
+                               asp-controller="Auth"
+                               asp-action="Logout">Logout</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>

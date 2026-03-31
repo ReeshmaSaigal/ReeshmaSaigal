@@ -1,0 +1,111 @@
+<div class="row p-2 rounded bg-white m-1 mt-3">
+
+
+
+    <div class="col-md-1"></div>
+    <div class="col-md-10 p-4 border-bottom border-2  ">
+        <h3>Change Username</h3>
+    </div>
+
+
+    <div class="row scrollable-content">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <form [formGroup]="updateUsernameForm" (ngSubmit)="onSubmit()">
+            <div class="form-group p-4">
+                <label for="exampleInputEmail1">Full Name</label>
+                <input type="email" class="form-control  py-4" id="exampleInputEmail1" formControlName="jobProviderName"
+                    aria-describedby="emailHelp" placeholder="Please enter your full name" [value]="'userProfileData.jobProviderName'">
+            </div>
+
+            <div class="form-group p-4">
+                <label for="exampleInputUsername1">Username</label>
+                <input type="Username" class="form-control py-4" id="exampleInputUsername1" formControlName="username"
+                    placeholder="Please enter your username">
+            </div>
+
+            <div class="form-group p-4">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control  py-4" id="exampleInputEmail1" formControlName="email"
+                    aria-describedby="emailHelp" placeholder="Please enter your email">
+            </div>
+
+            <div class="form-group p-4">
+                <label for="exampleInputUsername1">Phone Number</label>
+                <input type="Username" class="form-control  py-4" id="exampleInputUsername1" formControlName="phone"
+                    placeholder="Please enter your phone number">
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 p-4 ms-3 d-inline"><button class="btn p-2 text-white px-5"
+                        style="background-color: #20A6FC;">Update Profile</button></div>
+                <!-- <div class="col-md-4 p-4 d-inline"><label class="fw-bold mt-2">Push Notifications</label>
+                <img class="d-inline" src="images/Group 14.png"></div>
+                <div class="col-md-3 p-4 d-inline"><label class="fw-bold mt-2">Email Notifications</label> 
+                <img class="d-inline" src="images/Group 14.png"></div> -->
+            
+            </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Change password section -->
+
+<div class="row p-2 rounded bg-white m-1 mt-3">
+
+
+
+    <div class="col-md-1"></div>
+    <div class="col-md-10 p-4 border-bottom border-2  ">
+        <h3>Change Password</h3>
+    </div>
+
+
+    <div class="row scrollable-content ">
+        <div class="col-md-1 "></div>
+        <form [formGroup]="passwordResetForm" (ngSubmit)="changePassword()">
+        <div class="col-md-10 mx-5">
+            
+                <div class="form-group p-4">
+                    <label for="exampleInputEmail1">User Id</label>
+                    <input type="email" class="form-control  py-4" formControlName="id" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Please enter your User Id">
+                </div>
+
+                <div class="form-group p-4">
+                    <label for="exampleInputUsername1">Old Password</label>
+                    <input type="Username" class="form-control py-4" formControlName="password" id="exampleInputUsername1"
+                        placeholder="Please enter your Old  password">
+                </div>
+
+                <div class="form-group p-4">
+                    <label for="exampleInputEmail1">New Password</label>
+                    <input type="email" class="form-control  py-4" formControlName="newPassword" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Please enter your new Password">
+                </div>
+
+                <div class="form-group p-4">
+                    <label for="exampleInputUsername1">Confirm Password</label>
+                    <input type="Username" class="form-control  py-4" formControlName="confirmPassword" id="exampleInputUsername1"
+                        placeholder="Confirm New Password">
+                </div>
+          
+
+            <div class="row">
+                <div class="col-md-4 p-4 ms-3 d-inline"><button class="btn p-2 text-white px-5"
+                        style="background-color: #20A6FC;">Update Profile</button></div>
+                <!-- <div class="col-md-4 p-4 d-inline"><label class="fw-bold mt-2">Push Notifications</label>
+                <img class="d-inline" src="images/Group 14.png"></div>
+                <div class="col-md-3 p-4 d-inline"><label class="fw-bold mt-2">Email Notifications</label> 
+                <img class="d-inline" src="images/Group 14.png"></div> -->
+            </div>
+
+        </div>
+        </form>
+    </div>
+
+</div>

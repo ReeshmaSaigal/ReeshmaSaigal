@@ -1,0 +1,90 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- <div class="col-md-4 mb-3 mt-5" *ngFor="let card of cards; let i = index">
+      <div class="card custom-width">
+        <div class="card-body" [ngStyle]="{ 'background-color': card.backgroundColor }">
+          <div class="row">
+            <div class="col-md-6">
+              <img [src]="card.image" class="card-img" alt="Card Image">
+            </div>
+            <div class="col-md-6">
+              <h6 class="card-title text-light font-weight-bold">{{ card.heading }}</h6>
+              <p class="card-text lead display-6 text-light font-weight-bold ms-3">{{ card.value }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <h1 class="fw-bold py-5">PlatForm Admin</h1>
+    <div class="col-md-4 mb-3 mt-2 ">
+      <div class="card rounded-3">
+        <div class="card-body" style="background-color: #053575;">
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+             <span> <i class="fa-regular fa-suitcase fa-3x text-white border border-white p-2 rounded-3"></i></span>
+            </div>
+            <div class="col-md-8">
+              <h4 class="card-title text-light font-weight-bold">Total Jobs Posted </h4>
+              <p class="card-text lead display-4 text-light font-weight-bold ms-3">{{totalJobsPosted}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mt-2 mb-3">
+      <div class="card rounded-3">
+        <div class="card-body" style="background-color: #053575;">
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <span><i class="fa-solid fa-user fa-3x text-white border border-white p-2 rounded-3"></i></span>
+
+            </div>
+            <div class="col-md-8">
+              <h4 class="card-title text-light font-weight-bold">Total JobSeekers </h4>
+              <p class="card-text lead display-4 text-light font-weight-bold ms-3">{{jobseekers.length}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mt-2 mb-3">
+      <div class="card rounded-3">
+        <div class="card-body" style="background-color:  #053575;">
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <span><i class="fa-sharp fa-solid fa-building fa-3x text-white border border-white p-2 rounded-3"></i></span>
+
+            </div>
+            <div class="col-md-8">
+              <h4 class="card-title text-light font-weight-bold">Total Companes </h4>
+              <p class="card-text lead display-4 text-light font-weight-bold ms-3">{{totalCompanies}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mt-2 mb-3">
+      <div class="card rounded-3">
+        <div class="card-body" style="background-color:  #053575;">
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <span><i class="fa-sharp fa-solid fa-building fa-3x text-white border border-white p-2 rounded-3"></i></span>
+
+            </div>
+            <div class="col-md-8">
+              <h4 class="card-title text-light font-weight-bold">Total JobProviders</h4>
+              <p class="card-text lead display-4 text-light font-weight-bold ms-3">{{totalJobProviders}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10">
+      <div>
+        <canvas id="myChart" ></canvas>
+      </div>
+    </div>
+  </div>
+</div>

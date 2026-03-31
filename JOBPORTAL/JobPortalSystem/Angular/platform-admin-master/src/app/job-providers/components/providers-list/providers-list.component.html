@@ -1,0 +1,91 @@
+<div class="cotainer-fluid mt- 5 ">
+    <h1 class="fw-bold py-5">Job Providers</h1>
+    <div class="row">
+        <div class="col-md-11 searchbar border border-2 m-3 p-2 rounded-5 bg-white">
+            <div class=" row input-group ">
+                <!-- Search input -->
+                <div class="col-md-9">
+                    <input type="text"  [(ngModel)]="searchTerm" class="form-control border-0" (input)="filterCompany()"
+                        placeholder="Search by Title,Company or any jobs keyword" aria-label="Search">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p class="h6">Showing <span>{{ companies.length}}</span> Companies</p>
+            <small>Based your preferences</small>
+        </div>
+        <!-- <div class="col-md-2">
+            <div class="toggle-container">
+                <label for="notification-toggle" class="toggle-text small">Salary</label>
+                <input type="checkbox" id="notification-toggle">
+                <label for="notification-toggle" class="toggle-label"></label>
+
+            </div>
+
+        </div> -->
+        <!-- <div class="col-md-2">
+            <div class="btn-group border border-primary rounded-pill">
+                <button type="button" class="btn  dropdown-toggle border-0" data-toggle="dropdown">
+                    <i class="bi bi-sort-down text-primary"></i> Newest <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-menu"> -->
+                    <!-- Dropdown items go here -->
+                    <!-- <a class="dropdown-item" href="#">Item 1</a>
+                    <a class="dropdown-item" href="#">Item 2</a>
+                    <a class="dropdown-item" href="#">Item 3</a>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="col-md-1">
+            <span class="border border-primary rounded-pill listIcon py-2 px-3"><i
+                    class="bi bi-list-task listIcon text-primary"></i></span>
+        </div>
+        <div class="col-md-1">
+            <span class="border border-primary gridIcon rounded-pill py-2 px-3"><i
+                    class="bi bi-grid gridIcon  text-primary bi-5x"></i></span>
+        </div> -->
+    </div>
+    <div class="row d-flex flex-row">
+        <div class="col-md-3 " *ngFor="let company of companies">
+
+            <div class="card m-4 border border-2 rounded bg-white p-2">
+
+                <!-- <div class="mt-4 mx-auto d-block"><img [src]="company.companyLogo" class="card-img-top img-fluid" alt="logo"></div>
+                <small class="card-title fw-bold ">{{company.legalName}}</small>
+                <small class="card-text text-center">{{companies.department}}</small><br>
+                <div class="d-flex justify-content-between mx-2"><i class="bi bi-trash3 text-primary p-2"></i>
+                    <i class="bi bi-slash-circle text-danger p-2"></i>
+                </div> -->
+                <p><span>Legal Name</span> : {{company.legalName}}</p>
+                <p><span>Summary</span> : {{company.summary}}</p>
+                <p><span>Industry</span> : {{company.industry}}</p>
+                <p><span>Email</span> : {{company.email}}</p>
+                <p><span>Phone</span> : {{company.phone}}</p>
+                <p><span>Address</span> : {{company.address}}</p>
+                <p><span>Website</span> : {{company.website}}</p>
+                <p><span>Location</span> : {{company.location}}</p>
+                <div class="d-flex justify-content-between mx-2"><i class="bi bi-trash3 text-primary p-2 btn" (click)="removeCompany(company.id)"></i>
+              
+                    <i class="bi bi-slash-circle text-danger p-2"></i>
+                </div>
+            </div>
+        </div>
+        <ng-template #noDataMessage>
+            <p>No companies data available.</p>
+        </ng-template>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.filter,.find
+{
+    background-color:#d3d1d1;
+    color: #40189D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.filter:hover,.find:hover{
+    background-color: #40189D;
+    color: white;
+    
+}
+input:active{border: none;}

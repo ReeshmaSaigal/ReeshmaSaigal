@@ -1,0 +1,15 @@
+.custom-radius{
+    border-radius: 20px;
+}
+.bg-light {
+    background-color: #3184d7!important;
+    color: azure;
+}
+.custom-radius{
+    border-radius:10px;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}

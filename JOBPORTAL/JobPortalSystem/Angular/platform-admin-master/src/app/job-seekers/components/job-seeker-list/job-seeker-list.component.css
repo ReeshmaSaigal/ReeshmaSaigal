@@ -1,0 +1,16 @@
+button {
+    font-size: small;
+    width: 40%;
+    background-color: #E9E0FF;
+    color: #40189D;
+    border: none;
+    font-weight: 600;
+}
+
+button:last-child {
+    color: white;
+    background-color: #40189D;
+}
+span{
+    font-weight: bold;
+}

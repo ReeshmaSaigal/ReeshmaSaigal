@@ -1,0 +1,97 @@
+<div class="container">
+  <div class="row">
+
+    <!-- LEFT SIDE -->
+    <div class="col-md-6">
+
+      <ng-container *ngFor="let job of jobs">
+
+        <div class="card mb-3"
+             [class.border-primary]="selectedJob?.id === job.id">
+
+          <div class="card-body">
+
+            <!-- Save Button -->
+            <div class="text-end">
+              <button class="btn btn-sm btn-outline-primary"
+                      (click)="saveJob(job)">
+
+                <i class="fa"
+                   [ngClass]="job?.saved ? 'fa-check' : 'fa-save'"></i>
+
+                {{ job?.saved ? 'Saved' : 'Save Job' }}
+              </button>
+            </div>
+
+            <!-- Clickable Job -->
+            <div class="d-flex cursor-pointer"
+                 (click)="viewJobDetail(job)">
+
+              <img src="assets/images/Rectangle 14.png"
+                   width="50" height="50">
+
+              <div class="ms-3">
+                <h5 class="mb-1">{{ job?.jobTitle }}</h5>
+
+                <p class="mb-0">
+                  <span class="text-primary">
+                    {{ job?.industryName }}
+                  </span>
+
+                  <span class="px-2">•</span>
+
+                  <span>{{ job?.locationName }}</span>
+                </p>
+              </div>
+            </div>
+
+            <p class="mt-2">{{ job?.jobSummary }}</p>
+
+            <span class="badge text-light p-2"
+                  style="background-color: #CAC3AA;">
+              {{ job?.locationName }}
+            </span>
+
+          </div>
+        </div>
+
+      </ng-container>
+
+      <!-- Pagination -->
+      <nav>
+        <ul class="pagination">
+
+          <li class="page-item"
+              [class.disabled]="currentPage === 1">
+            <button class="page-link"
+                    (click)="changePage(currentPage - 1)">
+              Previous
+            </button>
+          </li>
+
+          <li class="page-item active">
+            <span class="page-link">{{ currentPage }}</span>
+          </li>
+
+          <li class="page-item"
+              [class.disabled]="currentPage === totalPages">
+            <button class="page-link"
+                    (click)="changePage(currentPage + 1)">
+              Next
+            </button>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="col-md-6">
+      <app-all-jobs-detail
+        [job]="selectedJob">
+      </app-all-jobs-detail>
+    </div>
+
+  </div>
+</div>

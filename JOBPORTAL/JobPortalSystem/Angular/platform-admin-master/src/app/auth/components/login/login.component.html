@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="left col-sm-7 d-flex align-items-center justify-content-center">
+            <div class="left-side-images d-flex flex-sm-column py-5">
+                <div class="jobie-logo m-2">
+                    <img src="../../../../assets/images/login/job.png">
+                </div>
+                <div class="carousel-image">
+                    <img src="../../../../assets/images/login/Illustration.png">
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-5 d-flex align-items-center justify-content-center">
+            <!-- <form (ngSubmit)="login()" class="login d-flex flex-sm-column">
+                <h2>Sign in to AdminDashboard</h2>
+                <label for="email">Email</label>
+                <input type="email" [(ngModel)]="email" name="email" placeholder="input your email in here" class="p-3">
+                <label for="password">Password</label>
+                <input type="password"  [(ngModel)]="password" name="password" placeholder="input your password in here" class="p-3">
+                <a href="#" class="forgot d-flex justify-content-end">Forgot password?</a>
+                <button type="submit" class="submit py-2">Sign In</button>
+                <div *ngIf="loginError" class="error">Invalid email or password</div>
+                <div *ngIf="isLoggedIn">Logged in successfully!</div>
+            </form> -->
+            <form (ngSubmit)="login()" class="login d-flex flex-sm-column w-75">
+                <h2>Sign in to AdminDashboard</h2>
+                
+                <mat-form-field appearance="fill">
+                  <mat-label>Email</mat-label>
+                  <input matInput type="email" [(ngModel)]="email" name="email" placeholder="Input your email here" class="p-3">
+                </mat-form-field>
+                
+                <mat-form-field appearance="fill">
+                  <mat-label>Password</mat-label>
+                  <input matInput type="password" [(ngModel)]="password" name="password" placeholder="Input your password here" class="p-3">
+                </mat-form-field>
+                
+                <a href="#" class="forgot d-flex justify-content-end">Forgot password?</a>
+                
+                <button mat-button type="submit" class="submit py-2 text-white">Sign In</button>
+                
+                <div *ngIf="loginError" class="error">Invalid email or password</div>
+                <div *ngIf="isLoggedIn">Logged in successfully!</div>
+              </form>
+              
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="row mt-5 px-4">
+
+  <!-- LEFT SIDE (JOBS) -->
+  <div class="col-md-6">
+
+    <div class="job-card" *ngFor="let jobList of jobs">
+
+      <div class="job-header">
+        <img src="../../../../assets/images/jobs/Rectangle 14.png" class="company-logo">
+
+        <div>
+          <h5 class="job-title">{{ jobList?.jobTitle }}</h5>
+          <p class="company">{{ jobList.industryName }}</p>
+        </div>
+      </div>
+
+      <p class="job-summary">
+        {{ jobList.jobSummary }}
+      </p>
+
+      <div class="job-tags">
+        <span class="tag">{{ jobList.locationName }}</span>
+        <span class="tag">{{ jobList.jobCategoryName }}</span>
+      </div>
+
+      <div class="job-actions">
+        <button class="btn-update" (click)="updateJob(jobList.id)">Update</button>
+        <button class="btn-delete" (click)="deleteJob(jobList.id)">Delete</button>
+        <!-- <button class="btn-schedule"  [routerLink]="['/interview/schedule', jobList.id]">Schedule</button> -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- RIGHT SIDE (IMAGE - RESTORED ✅) -->
+  <div class="col-md-6 d-flex justify-content-center align-items-center">
+    <img src="../../../../assets/images/jobs/smiley-businesswoman-posing.png"
+         class="side-image">
+  </div>
+
+</div>

@@ -1,0 +1,60 @@
+header {
+    background-color: rgba(242, 234, 241, 0.667);
+    height: 60px;
+    padding: 10px;
+    color: #1d0e0e;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .img-fluid{
+    height:40px;
+  }
+  
+
+  
+  .menu {
+    display: flex;
+
+  }
+  .menu a:hover{
+    background-color: rgb(173, 183, 192);
+  }
+  
+  .menu a {
+    color: #151010;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .icon i {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .menu {
+      display: none;
+    }
+  
+    .icon {
+      display: block;
+    }
+  
+    .responsive {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .responsive a {
+      margin: 10px 0;
+    }
+  }

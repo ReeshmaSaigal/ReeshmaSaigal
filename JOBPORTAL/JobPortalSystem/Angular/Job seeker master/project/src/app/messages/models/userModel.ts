@@ -1,0 +1,29 @@
+export interface UserModel {
+  id: string
+  firstName: string
+  lastName: string
+  email: string
+  gender: string
+  location: string
+  phone: string
+  passwordHash: string
+  passwordSalt: string
+  role: number
+  about: any
+  designation: any
+  companyId: any
+  status: any
+  image: any
+  createdDate: any
+  connectionId: string
+  onlineStatus: boolean
+  lastActive: string
+  applications: any[]
+  company: any
+  experiences: any[]
+  interviewCreatedByNavigations: any[]
+  interviewJobseekers: any[]
+  jobs: any[]
+  qualifications: any[]
+  skills: any[]
+}

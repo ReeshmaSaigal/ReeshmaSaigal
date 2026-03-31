@@ -1,0 +1,54 @@
+<div class="container mt-5">
+    <div class="row ">
+        <div class="col-md-6 border bg-color1 d-flex custom-column padding">
+
+            <div
+                class="col-md-5 flex-fill border bg-white custom-rounded-left column-height mt-5 text-center border-radius">
+                <p><img src="../../../../../assets/images/Logo.png" class="mt-5 mx-auto d-block"></p>
+                <h2 class=" font mx-auto d-block">Welcome Back</h2>
+                <form  class="d-flex justify-content-center align-items-center mt-4">
+
+                    <div class="google-btn ">
+                        <div class="google-icon-wrapper">
+                            <img class="google-icon"
+                                src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" />
+                        </div>
+                        <p class="btn-text"><b>Login in with google</b></p>
+                    </div>
+
+
+                </form>
+                <p class="mt-4 login-email">OR LOGIN WITH EMAIL</p>
+                <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+
+                    <p><input type="text" name="email" placeholder="Your Email" class="border text-box-size" ngModel>
+                    </p>
+                    <p> <input type="text" name="password" placeholder="Your password" class="border text-box-size"
+                            ngModel></p>
+                    <p>
+
+                        <input class="form-check-input" type="checkbox" id="exampleCheckbox">
+                        <label class="form-check-label" for="exampleCheckbox">
+                            Keep me logged in
+                        </label>
+                    </p>
+
+                    <button type="submit" >Login</button>
+
+                    <p>Dont have an account yet?<a><b>sign up</b></a></p>
+                </form>
+
+
+            </div>
+
+
+        </div>
+        <div class="col-md-6 border bg-color2 d-flex   p-0 ">
+            <img src="../../../../../assets/images/LoginPageImg.png"
+                class="img-fluid mt-5 m-0 mb-5 pr-5 custom-rounded">
+
+            <!-- <div class="col-md-6 flex-fill   mt-5"></div> -->
+
+        </div>
+    </div>
+</div>

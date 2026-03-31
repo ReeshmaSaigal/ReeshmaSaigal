@@ -1,0 +1,9 @@
+input
+{
+    background: linear-gradient(0deg, #EDF2F7, #EDF2F7), #FFFFFF;
+}
+.error-message {
+    color: red; /* Specify the desired color for the error messages */
+    font-size: 14px; /* Optionally, define additional styles */
+    margin-top: 5px;
+  }

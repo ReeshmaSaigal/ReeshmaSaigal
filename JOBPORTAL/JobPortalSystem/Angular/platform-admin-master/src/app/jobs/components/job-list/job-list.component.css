@@ -1,0 +1,118 @@
+.Suggestions
+{
+    background-color:#E3D7FF;
+    
+}
+.Suggestions:hover{
+    background-color:#40189D;
+    color: white;
+}
+.removeButton
+{
+    background-color: #E9E0FF;
+}
+.card
+{
+    box-shadow: 0px 3px #D3D3D3;
+}
+.card-body{font-size: small;}
+.listIcon,.gridIcon
+  {
+   font-size :25px;
+
+  }
+  .listIcon:hover,.gridIcon:hover{
+    background-color: #40189D;
+    color: white;
+    
+  }
+  .toggle-container {
+    display: inline-block;
+  }
+  
+  .toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: #d8d7df;
+    cursor: pointer;
+  }
+  
+  .toggle-label::before {
+    content: '';
+    position: absolute;
+    top:-1px;
+    left: 2px;
+    width: 16px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #666464;
+    transition: transform 0.2s ease;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked + .toggle-label {
+    background-color: #E4CFFF; /* Toggle button background color when checked */
+  }
+  
+  input[type="checkbox"]:checked + .toggle-label::before {
+    transform: translateX(20px); /* Move the toggle button to the right when checked */
+  }
+  
+  .toggle-text {
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+
+  .toggle-label1 {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: #d8d7df;
+    cursor: pointer;
+  }
+  
+  .toggle-label1::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 2px;
+    width: 16px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #666464;
+    transition: transform 0.2s ease;
+  }
+  
+  input[type="checkbox"]:checked + .toggle-label1 {
+    background-color: #E4CFFF; /* Toggle button background color when checked */
+  }
+  
+  input[type="checkbox"]:checked + .toggle-label1::before {
+    transform: translateX(20px); /* Move the toggle button to the right when checked */
+  }
+  
+/* Search */
+  .filter,.find
+{
+    background-color:#d3d1d1;
+    color: #40189D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.filter:hover,.find:hover{
+    background-color: #40189D;
+    color: white;
+    
+}
+input:active{border: none;}

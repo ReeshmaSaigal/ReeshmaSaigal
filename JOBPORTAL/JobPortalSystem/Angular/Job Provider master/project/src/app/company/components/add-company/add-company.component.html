@@ -1,0 +1,165 @@
+
+
+<form [formGroup]="companyForm" (ngSubmit)="addCompany()" class="container mt-5 p-4 shadow rounded bg-white">
+
+  <!-- Title -->
+    <div class="border-bottom pb-3 mb-4">
+      <h4 class="fw-bold">💼 Add Company</h4>
+    </div>
+
+  <div class="row g-3">
+
+    <!-- Legal Name -->
+    <div class="col-md-6">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-building"></i></span>
+        <input type="text" class="form-control"
+               placeholder="Legal Name"
+               formControlName="legalName"
+               [ngClass]="{'is-invalid': submitted && f['legalName'].errors}">
+      </div>
+      <div class="invalid-feedback d-block" *ngIf="submitted && f['legalName'].errors">
+        <span *ngIf="f['legalName'].errors['required']">Legal Name is required</span>
+      </div>
+    </div>
+
+    <!-- Industry -->
+    <div class="col-md-6">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-briefcase"></i></span>
+        <select class="form-select"
+                formControlName="industryId"
+                [ngClass]="{'is-invalid': submitted && f['industryId'].errors}">
+          <option value="">Select Industry</option>
+          <option *ngFor="let industry of industries" [value]="industry.id">
+            {{ industry.name }}
+          </option>
+        </select>
+      </div>
+      <div class="invalid-feedback d-block" *ngIf="submitted && f['industryId'].errors">
+        Industry is required
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="col-md-6">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-card-text"></i></span>
+        <input type="text" class="form-control"
+               placeholder="Company Summary"
+               formControlName="summary"
+               [ngClass]="{'is-invalid': submitted && f['summary'].errors}">
+      </div>
+      <div class="invalid-feedback d-block" *ngIf="submitted && f['summary'].errors">
+        Summary is required
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="col-md-6">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+        <input type="email" class="form-control"
+               placeholder="Email"
+               formControlName="email"
+               [ngClass]="{'is-invalid': submitted && f['email'].errors}">
+      </div>
+      <div class="invalid-feedback d-block" *ngIf="submitted && f['email'].errors">
+        <span *ngIf="f['email'].errors['required']">Email is required</span>
+        <span *ngIf="f['email'].errors['email']">Invalid email</span>
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-md-6">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+        <input type="text" class="form-control"
+               placeholder="Phone Number"
+               formControlName="phone"
+               [ngClass]="{'is-invalid': submitted && f['phone'].errors}">
+      </div>
+      <div class="invalid-feedback d-block" *ngIf="submitted && f['phone'].errors">
+        <span *ngIf="f['phone'].errors['required']">Phone is required</span>
+        <span *ngIf="f['phone'].errors['pattern']">Enter 10 digit number</span>
+      </div>
+    </div>
+
+    <!-- Website -->
+    <div class="col-md-6">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-globe"></i></span>
+        <input type="text" class="form-control"
+               placeholder="Website (https://...)"
+               formControlName="website"
+               [ngClass]="{'is-invalid': submitted && f['website'].errors}">
+      </div>
+      <div class="invalid-feedback d-block" *ngIf="submitted && f['website'].errors">
+        Enter valid website
+      </div>
+    </div>
+
+    <!-- Address -->
+    <div class="col-md-6">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
+        <input type="text" class="form-control"
+               placeholder="Address"
+               formControlName="address"
+               [ngClass]="{'is-invalid': submitted && f['address'].errors}">
+      </div>
+      <div class="invalid-feedback d-block" *ngIf="submitted && f['address'].errors">
+        Address is required
+      </div>
+    </div>
+
+    <!-- Location -->
+    <div class="col-md-6">
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-pin-map"></i></span>
+        <select class="form-select"
+                formControlName="location"
+                [ngClass]="{'is-invalid': submitted && f['location'].errors}">
+          <option value="">Select Location</option>
+          <option *ngFor="let location of locations" [value]="location.id">
+            {{ location.name }}
+          </option>
+        </select>
+      </div>
+      <div class="invalid-feedback d-block" *ngIf="submitted && f['location'].errors">
+        Location is required
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BUTTON -->
+  <div class="text-center mt-4">
+    <button type="submit" class="btn btn-primary px-5 ">
+      Submit
+    </button>
+  </div>
+
+</form>
+
+<!-- SUCCESS TOAST -->
+<div class="toast position-fixed bottom-0 end-0 m-3"
+     [class.show]="showToast"
+     style="z-index: 9999; background-color:#198754; color:white;">
+  <div class="toast-body">
+    ✅ Company added successfully!
+  </div>
+</div>
+<!-- ❌ ERROR TOAST -->
+<div class="toast position-fixed bottom-0 end-0 m-3"
+     [class.show]="showErrorToast"
+     style="z-index: 9999; background-color:#dc3545; color:white;">
+  <div class="toast-body">
+    ❌ Add company Failed!
+    
+  </div>
+</div>
+
+
+
+

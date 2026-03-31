@@ -1,0 +1,27 @@
+.card
+{
+    width: 18rem;
+    margin: 10px;
+    background-color: #F1F9FE;
+}
+.badge1 {
+    background-color: #EBD7FB;
+    color: #DE81F4;
+    padding: 6px 12px;
+  }
+.badge2{
+    background-color: #F0ECDB;
+    color: #ECA315;
+    padding: 6px 12px;
+}
+.centered-text
+{
+    text-align: center;
+}
+#h2{
+    background-color: #242D62;
+}
+.custom-font{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}

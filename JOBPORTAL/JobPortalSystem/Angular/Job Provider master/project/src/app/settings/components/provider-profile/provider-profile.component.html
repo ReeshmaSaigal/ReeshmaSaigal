@@ -1,0 +1,108 @@
+<div class="container-fluid mt-3">
+
+  <ng-container *ngFor="let providerProfile of jobProviderProfile">
+
+    <div class="row mx-2">
+
+      <!-- LEFT PROFILE -->
+      <div class="col-md-4 mb-3">
+
+        <div class="card shadow-sm text-center p-4">
+
+          <img src="../../../../assets/images/settings/cheerful-curly.png"
+               class="rounded-circle mx-auto mb-3"
+               style="width:110px;height:110px;object-fit:cover;">
+
+          <h5 class="fw-bold">{{ providerProfile.jobProviderName }}</h5>
+          <p class="text-muted">{{ providerProfile.designation }}</p>
+
+          <hr>
+
+          <div class="text-start mt-3 small">
+
+            <p>
+              <img src="../../../../assets/images/settings/sms.png" width="18">
+              {{ providerProfile.email }}
+            </p>
+
+            <p>
+              <img src="../../../../assets/images/settings/call.png" width="18">
+              {{ providerProfile.phone }}
+            </p>
+
+            <p>
+              <img src="../../../../assets/images/settings/location.png" width="18">
+              {{ providerProfile.location }}
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- ABOUT -->
+        <div class="card shadow-sm mt-3 p-3">
+          <h6 class="fw-bold">About Me</h6>
+          <p class="text-muted small">
+            {{ providerProfile.about|| 'No description added' }}
+          </p>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="col-md-8">
+
+        <div class="row">
+
+          <!-- SKILLS -->
+          <div class="col-md-12 mb-3">
+            <div class="card shadow-sm p-3">
+              <h6 class="fw-bold mb-2">💡 Skills</h6>
+
+              <div>
+                <span class="badge bg-primary me-2 mb-2"
+                      *ngFor="let skill of providerProfile.skills">
+                  {{ skill }}
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- EDUCATION -->
+          <div class="col-md-12 mb-3">
+            <div class="card shadow-sm p-3">
+              <h6 class="fw-bold mb-2">🎓 Education</h6>
+
+              <ul class="mb-0">
+                <li *ngFor="let edu of providerProfile.education">
+                  {{ edu }}
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <!-- EXPERIENCE -->
+          <div class="col-md-12">
+            <div class="card shadow-sm p-3">
+              <h6 class="fw-bold mb-2">💼 Experience</h6>
+
+              <ul class="mb-0">
+                <li *ngFor="let exp of providerProfile.experience">
+                  {{ exp }}
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </ng-container>
+
+</div>

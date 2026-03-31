@@ -1,0 +1,74 @@
+<div class="row p-2 rounded bg-white m-1 mt-3">
+  <div class="col-md-1"></div>
+  <div class="col-md-10 p-4 border-bottom border-2  ">
+    <h1 class="fw-bold py-5">Settings</h1>
+  </div>
+  <form [formGroup]="settingsForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="form-group p-4" >
+          <label for="image">ProfilePic</label>
+          <input type="file" formControlName="profileImage" (change)="onFileChange($event)">
+          <img [src]="imagePreview" alt="Profile Image" class="img-fluid mt-2" width="100" height="100" />
+        </div>
+        <div class="form-group p-4">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control  py-4" id="firstName" name="firstName" formControlName="firstName"
+            aria-describedby="firstName" placeholder="Please enter your first name">
+          <div class="error-message" *ngIf="settingsForm.controls['firstName'].invalid && settingsForm.controls['firstName'].touched">
+            First Name is required.
+          </div>
+        </div>
+        <div class="form-group p-4">
+          <label for="exampleInputEmail1">Last Name</label>
+          <input type="text" class="form-control  py-4" id="lastName" name="lastName" formControlName="lastName"
+            aria-describedby="lastName" placeholder="Please enter your Lastname">
+          <div class="error-message"
+            *ngIf="settingsForm.controls['lastName'].invalid && settingsForm.controls['lastName'].touched">
+            Email is required.
+          </div>
+        </div>
+
+        <div class="form-group p-4">
+          <label for="userName">Username</label>
+          <input type="text" class="form-control py-4" id="userName" name="userName" formControlName="userName"
+            placeholder="Please enter your username">
+          <div class="error-message"
+            *ngIf="settingsForm.controls['userName'].invalid && settingsForm.controls['userName'].touched">
+            User Name is required.
+          </div>
+        </div>
+           <div class="form-group p-4">
+          <label for="phone">Phone Number</label>
+          <input type="text" class="form-control  py-4" id="Phone" name="Phone" formControlName="phone"
+            placeholder="Please enter your phone number">
+          <div class="error-message" *ngIf="settingsForm.controls['phone'].invalid && settingsForm.controls['phone'].touched">
+            Phone Number is required.
+          </div>
+        </div>
+        <div class="form-group p-4">
+          <label for="email">Email</label>
+          <input type="email" class="form-control  py-4" id="email" name="email" formControlName="email"
+            placeholder="Please enter your new email">
+          <div class="error-message" *ngIf="settingsForm.controls['email'].invalid && settingsForm.controls['email'].touched">
+            email is required.
+          </div>
+        </div>
+        <div class="form-group p-4">
+          <label for="password">Password</label>
+          <input type="password" class="form-control  py-4" id="Password" name="Password" formControlName="password"
+            placeholder="Please enter your new password">
+          <div class="error-message"
+            *ngIf="settingsForm.controls['password'].invalid && settingsForm.controls['password'].touched">
+            Password is required.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 p-4 ms-3 d-inline"><button type="submit" id="submit" name="submit" class="btn p-2 text-white px-5"
+              style="background-color: #20A6FC;">Update Profile</button></div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

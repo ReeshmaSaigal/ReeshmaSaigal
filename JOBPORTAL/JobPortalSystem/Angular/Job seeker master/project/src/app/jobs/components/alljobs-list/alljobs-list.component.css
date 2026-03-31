@@ -1,0 +1,24 @@
+.sortBy
+{ right:0;}
+    
+
+
+#card
+{
+    border-radius: 25px;
+}
+.text-right {
+    text-align: right;
+  }
+  .image-button {
+    border: none;
+    padding: 0;
+    background: none;
+    /* Add additional styling as needed */
+  }
+  .saved-button {
+    background-color: blue; /* Change button color to blue when status is true */
+  }
+  .default-button{
+    background-color: #ccc;
+  }

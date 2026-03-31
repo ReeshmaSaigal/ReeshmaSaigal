@@ -1,0 +1,28 @@
+﻿@model TourDestinationMVCApp.DTO.DestinationDto;
+@{
+    ViewData["Title"] = "Add Destination";
+    Layout = "_TourLayout";
+}
+
+<h2>Add Destination</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label>City</label>
+        <input asp-for="City" class="form-control" />
+        <span asp-validation-for="City" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label>Image</label>
+        <input asp-for="ImageFile" type="file" class="form-control-file" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Destination</button>
+</form>

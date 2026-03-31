@@ -1,0 +1,63 @@
+<div class="container-fluid mt-3" *ngIf="companyProfile">
+
+  <div class="row mx-2">
+
+    <!-- LEFT -->
+    <div class="col-md-4 mb-3">
+      <div class="card shadow-sm text-center p-4">
+
+        <img src="../../../../assets/images/settings/logo-design 1.png"
+             class="mx-auto mb-3"
+             style="width:100px;height:100px;object-fit:contain;">
+
+        <!-- ✅ FIXED -->
+        <h5 class="fw-bold">{{ companyProfile?.legalName }}</h5>
+
+        <hr>
+
+        <div class="text-start small mt-3">
+
+          <!-- ✅ FIXED -->
+          <p>🌐 {{ companyProfile?.website }}</p>
+          <p>📧 {{ companyProfile?.email }}</p>
+          <p>📞 {{ companyProfile?.phone }}</p>
+          <p>📍 {{ companyProfile?.location }}</p>
+
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+      <div class="card shadow-sm mt-3 p-3">
+        <h6 class="fw-bold">About Company</h6>
+        <p class="text-muted small">
+          {{ companyProfile?.aboutCompany || 'No description available' }}
+        </p>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="col-md-8">
+
+      <!-- VISION -->
+      <div class="card shadow-sm p-3 mb-3">
+        <h6 class="fw-bold">🎯 Vision</h6>
+        <p>{{ companyProfile?.companyVision }}</p>
+      </div>
+
+      <!-- MISSION -->
+      <div class="card shadow-sm p-3 mb-3">
+        <h6 class="fw-bold">🚀 Mission</h6>
+        <p>{{ companyProfile?.companyMission }}</p>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="card shadow-sm p-3">
+        <h6 class="fw-bold">📞 Contact</h6>
+        <p>{{ companyProfile?.contactDetails }}</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

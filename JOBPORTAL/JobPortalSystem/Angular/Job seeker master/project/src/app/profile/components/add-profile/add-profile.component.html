@@ -1,0 +1,27 @@
+<mat-card class="card mt-5" [@borderAnimation]="'animate'">
+
+  <div class="header">
+    <h2 class="form-title">Job Seeker Profile</h2>
+  </div>
+
+  <form [formGroup]="profileForm">
+
+    <mat-form-field class="form-group">
+      <mat-label>Profile Name</mat-label>
+      <input matInput formControlName="profileName">
+    </mat-form-field>
+
+    <mat-form-field class="form-group">
+      <mat-label>Profile Summary</mat-label>
+      <textarea matInput rows="4" formControlName="profileSummary"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary"
+            type="button"
+            (click)="addProfile()">
+      Add Profile
+    </button>
+
+  </form>
+
+</mat-card>

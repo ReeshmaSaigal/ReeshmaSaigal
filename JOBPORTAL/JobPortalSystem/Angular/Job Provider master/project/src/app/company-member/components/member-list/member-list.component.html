@@ -1,0 +1,55 @@
+<div class="container mt-4">
+
+  <div class="card shadow rounded-4 p-4">
+
+    <!-- Title -->
+    <div class="border-bottom pb-3 mb-4">
+      <h4 class="fw-bold">👥 Company Members</h4>
+    </div>
+
+    <!-- Members Grid -->
+    <div class="row g-4">
+
+      <div class="col-md-4" *ngFor="let member of companyMembers">
+
+        <div class="card border-0 shadow-sm rounded-4 h-100 p-3">
+
+          <!-- Member Info -->
+          <div>
+            <h3 class="fw-bold text-primary mb-3">
+               {{ member.firstName }} {{member.lastName}}
+            </h3>
+
+            <p class="mb-2">
+              <strong>Email:</strong><br>
+              {{ member.email }}
+            </p>
+
+            <p class="mb-2">
+              <strong>Phone:</strong><br>
+              {{ member.phone }}
+            </p>
+
+            <p class="mb-3">
+              <strong>Company:</strong><br>
+              {{ member.company }}
+            </p>
+          </div>
+
+          <!-- Action -->
+          <div class="mt-auto text-end">
+            <button class="btn btn-outline-danger rounded-pill px-4"
+                    (click)="removeCompanyMember(member.id)">
+              Delete
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,26 @@
+
+
+.search-input-group {
+    position: relative;
+  }
+
+  .search-input-group input[type="text"] {
+    border-radius: 20px;
+   
+  }
+
+  .search-input-group .search-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .whole-header
+  {
+   border-radius: 40px 0 0 0px;
+   /* background-color: #E3E3E3; */
+  }
+
+ 

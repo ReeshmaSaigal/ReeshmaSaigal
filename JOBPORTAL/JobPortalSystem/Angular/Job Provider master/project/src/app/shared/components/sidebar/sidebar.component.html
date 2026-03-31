@@ -1,0 +1,62 @@
+<div class="sidebar">
+  <!-- <div class="profile mt-5 image-container">
+    <img src="../../../../assets/images/sidebar-icons/cheerful-curly-business-girl-wearing-glasses 2.png" alt="Profile Image" class="rounded-circle img-fluid">
+  </div> -->
+
+  <!--Upload profile photo starts-->
+
+  <div class="profile mt-5 image-container">
+    <div class="d-flex align-items-center justify-content-center rounded-circle profile-icon-container">
+      <img src="../../../../assets/images/sidebar-icons/person-circle.png" class="person-image" alt="Person Image">
+      <input type="file" class="upload-photo-placeholder" placeholder="Upload Photo">
+    </div>
+  </div>
+  
+  <!--Upload profile photo ends-->
+
+
+  <ul class="nav flex-column mt-5">
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/dashboard/']"><img
+          src="../../../../assets/images/sidebar-icons/dashboard.png"><span class="mx-3">Dashboard</span></a>
+    </li>
+    <li class="nav-item" *ngIf="showCompanyOption()">
+      <a class="nav-link" [routerLink]="['/company/add']"><img
+          src="../../../../assets/images/sidebar-icons/question.png"><span class="mx-3">Company</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/jobs/list']"><img
+          src="../../../../assets/images/sidebar-icons/suitcase.png"><span class="mx-3">Jobs</span></a>
+
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/application/list']"><img
+          src="../../../../assets/images/sidebar-icons/application.png"><span class="mx-3">Applications</span></a>
+
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/interview/list']"><img
+          src="../../../../assets/images/sidebar-icons/question.png"><span class="mx-3">Interviews</span></a>
+    </li>
+    <!-- <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/messages/list']"><img
+          src="../../../../assets/images/sidebar-icons/message.png"><span class="mx-3">Messages</span></a>
+    </li> -->
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/settings/company']"><img
+          src="../../../../assets/images/sidebar-icons/message.png"><span class="mx-3">Profile</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/settings/account']"><img
+          src="../../../../assets/images/sidebar-icons/settings.png" class="icon-size"><span
+          class="mx-3">Settings</span></a>
+    </li>
+    <li class="nav-item mt-5 centered-image" *ngIf="showCompanyOption()">
+      <a class="nav-link" [routerLink]="['/company-member/add']"><img
+          src="../../../../assets/images/sidebar-icons/add-group (1) 1.png" class="icon-size ">
+        <p>Add New</p>
+      </a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,555 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\consultant\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\consultant\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\consultant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\consultant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\consultant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\consultant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\consultant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\consultant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\shared\\_tourlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\shared\\_tourlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\controllers\\consultantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:controllers\\consultantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\service\\consultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:service\\consultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\repository\\consultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:repository\\consultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\interface\\iconsultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:interface\\iconsultantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\dto\\updateconsultantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:dto\\updateconsultantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\dto\\consultantdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:dto\\consultantdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\dto\\createconsultantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:dto\\createconsultantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\dto\\authuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:dto\\authuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\dto\\consultantlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:dto\\consultantlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\shared\\_createconsultantmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\shared\\_createconsultantmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\helper\\appprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:helper\\appprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\interface\\iconsultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:interface\\iconsultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\enum\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:enum\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\interface\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:interface\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\exercise\\consultantmvcapp\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{058E19A8-0F61-4DC4-8955-C6F736DAC076}|ConsultantMVCApp.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateConsultantDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\UpdateConsultantDto.cs",
+              "RelativeDocumentMoniker": "DTO\\UpdateConsultantDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\UpdateConsultantDto.cs",
+              "RelativeToolTip": "DTO\\UpdateConsultantDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:58:43.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAIwC8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:49:28.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthService.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Service\\AuthService.cs",
+              "RelativeToolTip": "Service\\AuthService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:52:33.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Repository\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AuthRepository.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Repository\\AuthRepository.cs",
+              "RelativeToolTip": "Repository\\AuthRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:51:39.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA6wDAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T09:14:50.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsultantService.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Service\\ConsultantService.cs",
+              "RelativeDocumentMoniker": "Service\\ConsultantService.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Service\\ConsultantService.cs",
+              "RelativeToolTip": "Service\\ConsultantService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwEMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:30:46.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsultantController.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Controllers\\ConsultantController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConsultantController.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Controllers\\ConsultantController.cs",
+              "RelativeToolTip": "Controllers\\ConsultantController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADgvzQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T08:40:17.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsultantRepository.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Repository\\ConsultantRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ConsultantRepository.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Repository\\ConsultantRepository.cs",
+              "RelativeToolTip": "Repository\\ConsultantRepository.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAIA0wC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:27:36.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T09:02:32.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppProfile.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Helper\\AppProfile.cs",
+              "RelativeDocumentMoniker": "Helper\\AppProfile.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Helper\\AppProfile.cs",
+              "RelativeToolTip": "Helper\\AppProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T08:34:05.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAMwDsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T10:55:27.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateConsultantDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\CreateConsultantDto.cs",
+              "RelativeDocumentMoniker": "DTO\\CreateConsultantDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\CreateConsultantDto.cs",
+              "RelativeToolTip": "DTO\\CreateConsultantDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:24:47.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_CreateConsultantModal.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Shared\\_CreateConsultantModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_CreateConsultantModal.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Shared\\_CreateConsultantModal.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_CreateConsultantModal.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T08:49:02.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Consultant\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consultant\\Edit.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Consultant\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Consultant\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T12:02:31.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsultantListDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\ConsultantListDto.cs",
+              "RelativeDocumentMoniker": "DTO\\ConsultantListDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\ConsultantListDto.cs",
+              "RelativeToolTip": "DTO\\ConsultantListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:25:15.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Consultant\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consultant\\Index.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Consultant\\Index.cshtml",
+              "RelativeToolTip": "Views\\Consultant\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T08:45:06.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthUserDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\AuthUserDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AuthUserDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\AuthUserDto.cs",
+              "RelativeToolTip": "DTO\\AuthUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:49:18.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationServiceExtensions.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ApplicationServiceExtensions.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeToolTip": "Extensions\\ApplicationServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:46:41.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T09:30:36.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Consultant\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consultant\\Details.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Consultant\\Details.cshtml",
+              "RelativeToolTip": "Views\\Consultant\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T11:53:31.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IConsultantService.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Interface\\IConsultantService.cs",
+              "RelativeDocumentMoniker": "Interface\\IConsultantService.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Interface\\IConsultantService.cs",
+              "RelativeToolTip": "Interface\\IConsultantService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:29:41.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IConsultantRepository.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Interface\\IConsultantRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IConsultantRepository.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Interface\\IConsultantRepository.cs",
+              "RelativeToolTip": "Interface\\IConsultantRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:26:48.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-05T11:49:06.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Consultant\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Consultant\\Delete.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Consultant\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Consultant\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T12:03:00.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConsultantDetailsDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\ConsultantDetailsDto.cs",
+              "RelativeDocumentMoniker": "DTO\\ConsultantDetailsDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\ConsultantDetailsDto.cs",
+              "RelativeToolTip": "DTO\\ConsultantDetailsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T11:52:28.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T11:24:19.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_TourLayout.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Shared\\_TourLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_TourLayout.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Shared\\_TourLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_TourLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T11:24:22.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T09:02:42.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Enum\\UserRole.cs",
+              "RelativeDocumentMoniker": "Enum\\UserRole.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Enum\\UserRole.cs",
+              "RelativeToolTip": "Enum\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:50:18.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Interface\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IAuthRepository.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Interface\\IAuthRepository.cs",
+              "RelativeToolTip": "Interface\\IAuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:47:06.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Interface\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interface\\IAuthService.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\Interface\\IAuthService.cs",
+              "RelativeToolTip": "Interface\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:47:34.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\Exercise\\ConsultantMVCApp\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "DTO\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:50:05.382Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

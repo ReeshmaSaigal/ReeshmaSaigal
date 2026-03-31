@@ -1,0 +1,125 @@
+<div class="card" *ngIf="job">
+
+  <!-- HEADER -->
+  <div class="position-relative text-center py-4 bg-light">
+
+    <img src="assets/images/Rectangle 14 (1).png"
+         class="rounded-circle position-absolute"
+         style="top: 50%; left: 50%; transform: translate(-50%, -50%);
+                width: 100px; height: 100px;" />
+
+    <span class="position-absolute start-0 ms-3"
+          style="top: 70%;">
+      12 Applicants
+    </span>
+
+    <span class="position-absolute end-0 me-3"
+          style="top: 70%;">
+      Posted 6 Days Ago
+    </span>
+  </div>
+
+  <!-- BODY -->
+  <div class="card-body pt-5 text-center">
+
+    <h4>{{ job?.jobTitle }}</h4>
+
+    <p>
+      <span class="text-primary">{{ job?.industryName }}</span>
+      <span class="px-2">•</span>
+      <span>{{ job?.locationName }}</span>
+    </p>
+
+  </div>
+
+  <!-- JOB INFO -->
+  <div class="container p-3">
+    <div class="row g-3">
+
+      <!-- Employment -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-center">
+          <img src="assets/images/g1.png" width="40">
+          <div class="ms-2">
+            <small>Type Of Employment</small><br>
+            {{ job?.type || 'N/A' }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Salary -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-center">
+          <img src="assets/images/Group 1 (1).png" width="40">
+          <div class="ms-2">
+            <small>Salary</small><br>
+            {{ job?.salary || 'Not disclosed' }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-center">
+          <img src="assets/images/location.png" width="40">
+          <div class="ms-2">
+            <small>Location</small><br>
+            {{ job?.locationName }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Workplace -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-center">
+          <img src="assets/images/Group 1 (2).png" width="40">
+          <div class="ms-2">
+            <small>Work Mode</small><br>
+            {{ job?.workplace || 'N/A' }}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TABS (NO BOOTSTRAP JS) -->
+  <div class="px-3">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <button class="nav-link active">Company</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Job Desc</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Responsibilities</button>
+      </li>
+    </ul>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="p-3">
+    <h5>Responsibilities</h5>
+    <p>{{ job?.jobSummary || 'No details available' }}</p>
+  </div>
+
+  <!-- ACTION BUTTONS -->
+  <div class="row p-3">
+
+    <div class="col-md-6">
+      <button class="btn btn-primary w-100"
+              (click)="applyJob(job?.id)">
+        Apply Job
+      </button>
+    </div>
+
+    <div class="col-md-6">
+      <button class="btn btn-secondary w-100">
+        Message
+      </button>
+    </div>
+
+  </div>
+
+</div>

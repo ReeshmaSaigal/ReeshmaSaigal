@@ -1,0 +1,17 @@
+.navbar {
+    margin-bottom: 20px;
+   
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(6 6 6 / 55%);
+    font-family: auto;
+    font-size: larger;
+    font-weight: bold;
+}
+li a{
+
+  color:black;
+}
+.nav-item:hover{
+  background-color: rgb(210, 217, 223);
+}

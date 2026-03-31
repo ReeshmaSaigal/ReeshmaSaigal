@@ -1,0 +1,30 @@
+
+.container-fluid{
+    display: flex;
+   padding-left: 0px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color:#20A6FC;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 10px;
+    padding-left: 0px;
+  }
+  
+  .header {
+    height: 80px;
+    background-color: #ebebeb;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  .footer {
+    height: 60px;
+    background-color: #ebebeb;
+    width: 100%;
+  }

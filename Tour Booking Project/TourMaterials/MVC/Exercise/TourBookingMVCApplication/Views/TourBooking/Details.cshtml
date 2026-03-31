@@ -1,0 +1,168 @@
+﻿@model TourBookingMVCApplication.DTO.TourDetailsDto
+@{
+    Layout = "~/Views/Shared/_TourLayout.cshtml";
+}
+<div class="container mt-4 mb-5">
+
+    <!-- Back Button -->
+    <div class="row mb-3">
+        <div class="col-12">
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left me-2"></i>Back to Bookings
+            </a>
+            <form asp-action="Delete" method="post" asp-route-id="@Model.Booking.Id"
+                  style="display:inline;"
+                  onsubmit="return confirm('Are you sure you want to cancel this booking?');">
+
+                <button type="submit" class="btn btn-danger">
+                    <i class="bi bi-trash me-2"></i>Cancel Booking
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <!-- LEFT SIDE -->
+        <div class="col-lg-8">
+
+            <!-- Passenger Information -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">
+                        <i class="bi bi-person-circle me-2"></i>Passenger Information
+                    </h5>
+                    <span class="badge bg-light text-dark">
+                        @Model.Booking.Status
+                    </span>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div>
+                            <h4 class="mb-0">@Model.Booking.FirstName @Model.Booking.LastName</h4>
+
+                            @if (Model.Booking.LeadPassenger)
+                            {
+                                <span class="badge bg-warning text-dark">
+                                    <i class="bi bi-star-fill me-1"></i>Lead Passenger
+                                </span>
+                            }
+                        </div>
+
+                        <a asp-action="Edit" asp-route-id="@Model.Booking.Id"
+                           class="btn btn-primary">
+                            <i class="bi bi-pencil me-1"></i>Edit Booking
+                        </a>
+                    </div>
+
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Gender:</strong> @Model.Booking.Gender</p>
+                            <p><strong>Date of Birth:</strong> @Model.Booking.Dob</p>
+                            <p><strong>Citizenship:</strong> @Model.Booking.Citizenship</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <p><strong>Place of Birth:</strong> @Model.Booking.PlaceOfBirth</p>
+                            <p>
+                                <strong>Participant Type:</strong>
+                                <span class="badge bg-info">@Model.Booking.ParticipantType</span>
+                            </p>
+                           
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Passport Information -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">
+                        <i class="bi bi-passport me-2"></i>Passport Information
+                    </h5>
+                </div>
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Passport Number:</strong> @Model.Booking.PassportNumber</p>
+                            <p><strong>Issue Date:</strong> @Model.Booking.IssueDate?.ToShortDateString()</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <p><strong>Expiry Date:</strong> @Model.Booking.ExpiryDate?.ToShortDateString()</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour Details -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">
+                        <i class="bi bi-airplane me-2"></i>Tour Details
+                    </h5>
+                </div>
+
+                <div class="card-body">
+                    <h4>@Model.Tour.TourName</h4>
+                    <p>@Model.Tour.TourDescription</p>
+ 
+                    <hr />
+
+                 <div class="row">
+                        <div class="col-md-6">
+                             <p><strong>Departure Date:</strong> @Model.Tour.DepartureDate.ToShortDateString()</p>
+                            <p> <strong>Arrival Date:</strong> @Model.Tour.ArrivalDate.ToShortDateString()</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <p><strong>Duration:</strong> @Model.Tour.NoOfNights Nights</p>
+                            <p><strong>Tour Status:</strong> @Model.Tour.Status</p>
+                        </div>
+                    </div>
+
+                    <p class="mt-3">
+                        <strong>Tour ID:</strong>
+                        <span class="text-muted">@Model.Tour.Id</span>
+                    </p>
+                </div>
+                    </div> 
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="col-lg-4">
+
+            <!-- Price Summary -->
+            <div class="card shadow-sm mb-4 border-primary">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">
+                        <i class="bi bi-cash-coin me-2"></i>Price Summary
+                    </h5>
+                </div>
+
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Price per Person</span>
+                        <strong>$@Model.Tour.Price</strong> 
+                    </div>
+
+                    <hr />
+
+                    <div class="d-flex justify-content-between">
+                        <strong>Total Amount</strong>
+                        <h5 class="text-primary">$@Model.Tour.Price</h5> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>

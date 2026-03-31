@@ -1,0 +1,105 @@
+<div class="container">
+    <div class="row ">
+        <div class="col-md-6 border h-75">
+            <!-- <div class="row">
+                <div class="col-md-12  p-3">
+                    <h5>All Group</h5>
+                    <ng-container *ngFor="let user of messageGroup">
+                        <div class="row pb-2 member p-1 message" (click)="openPrivateChatGroup(user.name)">    
+                             <div class="col-md-8">
+                                <span class="font-weight-bold">{{user.name}}</span><br>
+                                <span class="text-secondary small"></span>
+                            </div>    
+                            <div class="col-md-2">
+                                <span class="float-right  small">10:55 AM</span>
+                                    <span class="rounded-circle bg-primary text-white "></span>
+                            </div>
+                        </div>
+                    </ng-container>
+                    <h5>All Messages</h5>
+                    <span class="float-right"></span>
+                </div>
+            </div> -->
+        <!-- groups list -->
+        <div class="col onlineusers" *ngFor="let group of chat.activeGroups">
+           <button type="button" class="btn  card-text btn-block">{{group.name}}
+              <span class="badge bg-secondary"></span></button><br><br>
+            </div>
+            <ng-container *ngFor="let user of allUsersList">
+            <div class="row pb-2 member p-1" (click)="showMessage(user)">    
+                <div class="col-md-2 ">
+                        <img class="img-fluid float-left" src="../../../../assets/images/Ellipse 175 (1).png" alt="Logo"><br>
+                        <span class="text-success">&bull;</span>
+                </div>
+                <div class="col-md-8 ">
+                    <span class="font-weight-bold">{{user.email}}</span><br>
+                    <span class="text-secondery small"></span>
+                </div>    
+                <div class="col-md-2">
+                    <span class="float-right  small">10:55 AM</span>
+                        <span class="rounded-circle bg-primary text-white "></span>
+                </div>
+            </div>
+        </ng-container>
+        <!-- listing groups -->
+        <div class="col onlineusers" *ngFor="let group of chat.activeGroups">
+          
+            <button type="button" class="btn  card-text btn-block "
+            (dblclick)="openPrivateChatGroup(group.name)">{{group.name}}
+              <span class="badge bg-secondary"><ng-container *ngIf="group.newCount>0">new</ng-container></span></button><br><br>
+          </div>
+        </div>
+        <ng-container >
+        <div class="col-md-6 border bg-light h-75">
+            <div class="row border-bottom p-2">
+                <div class="col-md-2 ">
+                    <img class="img-fluid float-left" src="../../assets/images/Ellipse 175.png" alt="Logo"><br>
+                    <span class="text-success">&bull;</span>
+                </div>
+                <div class="col-md-8 ">
+                    <span class="font-weight-bold">{{email}}</span><br>
+                    <span class="text-secondery small">Online now</span>
+                </div>    
+                <div class="col-md-2">
+                
+                </div>
+            </div>
+
+            <div class="row justify-content-end" >
+                <ng-container *ngFor="let chat of chat.messages">
+    
+                <div class="col-md-8 mt-2 p-2 " *ngIf="chat.from==email">
+                    <div class="content-box float-left"></div>
+                        <div class="col col-md-auto p-2 pb-3 w-auto outmsg mr-4 text-white ">
+                            <p>{{chat.content}}</p>
+                            <p class="float-right">{{email}}</p>
+                            <span class="float-right  small">10:56 AM</span>
+                        </div>
+                </div>
+    
+                <div class="row ">
+                    <div class="col-md-8 mb-2 mt-2 " *ngIf="chat.from!=email">
+                        <div class="content-box1 float-left "></div>
+                        <div class="col col-md-auto p-2 inmsg w-auto  text-secondary float-left">
+                            <p>{{chat.content}}</p>
+                            <span class="float-right  small">10:56 AM</span>
+                        </div>  
+                    </div>
+                </div>
+    
+            </ng-container>
+            </div>
+           <div class="row justify-content-center">
+                <div class="col-md-11 bg-white d-inline">
+                    <form #myForm="ngForm">
+                    <div class="form-group d-flex d-inline">
+                        <input type="text"  class="form-control border-0" id="message" name="messsage" [(ngModel)]="formData.message">
+                        <span class="btn float-right" (click)="senMessage(this.id,email)"><img class="img-fluid" src="../../../../assets/images/Subtract.png"></span>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+    </div>
+    </div>

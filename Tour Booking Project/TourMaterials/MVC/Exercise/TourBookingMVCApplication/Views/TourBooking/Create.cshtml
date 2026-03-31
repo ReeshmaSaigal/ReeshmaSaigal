@@ -1,0 +1,124 @@
+﻿@{
+     Layout = "~/Views/Shared/_TourLayout.cshtml";
+}
+
+@model TourBookingMVCApplication.DTO.CreateBookingDto
+
+<div class="container mt-5">
+
+    <div class="text-center mb-4">
+        <h2 class="fw-bold">Complete Your Booking</h2>
+        <p class="text-muted">
+            Please fill in your details to proceed with the tour booking
+        </p>
+    </div>
+
+    <form asp-action="Create" method="post" class="card shadow p-4">
+
+        <input type="hidden" asp-for="TourId" />
+
+        <!-- Personal Information -->
+        <h4 class="mb-3">Personal Information</h4>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="FirstName" class="form-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="LastName" class="form-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="Gender" class="form-label"></label>
+                <select asp-for="Gender" class="form-select">
+                    <option value="">Select gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="Dob" class="form-label"></label>
+                <input asp-for="Dob" type="date" class="form-control" />
+                <span asp-validation-for="Dob" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <label asp-for="PlaceOfBirth" class="form-label"></label>
+                <input asp-for="PlaceOfBirth" class="form-control" />
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="Citizenship" class="form-label"></label>
+                <input asp-for="Citizenship" class="form-control" />
+            </div>
+        </div>
+
+        <!-- Passport Info -->
+        <h4 class="mb-3">Passport Information (Optional)</h4>
+
+        <div class="mb-3">
+            <label asp-for="PassportNumber" class="form-label"></label>
+            <input asp-for="PassportNumber" class="form-control" />
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <label asp-for="IssueDate" class="form-label"></label>
+                <input asp-for="IssueDate" type="date" class="form-control" />
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="ExpiryDate" class="form-label"></label>
+                <input asp-for="ExpiryDate" type="date" class="form-control" />
+            </div>
+        </div>
+
+        <!-- Booking Details -->
+        <h4 class="mb-2">Booking Details</h4>
+
+        <div class="mb-3">
+            <label asp-for="ParticipantType" class="form-label"></label>
+            <select asp-for="ParticipantType" class="form-select">
+                <option value="">Select</option>
+                <option>Staff</option>
+                <option>Family</option>
+                <option>Player</option>
+            </select>
+        </div>
+
+        <div class="form-check mb-4">
+            <input type="checkbox" asp-for="LeadPassenger" class="form-check-input" />
+            <label asp-for="LeadPassenger" class="form-check-label">
+                This is the lead passenger
+            </label>
+        </div>
+
+        <!-- Buttons -->
+        <div class="d-flex justify-content-between">
+            <a asp-controller="TourBooking" asp-action="Index" class="btn btn-secondary">
+                Back to Tours
+            </a>
+
+            <button type="submit" class="btn btn-primary">
+                Complete Booking
+            </button>
+        </div>
+
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

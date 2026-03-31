@@ -1,0 +1,89 @@
+<div class="container-fluid">
+
+  <ng-container *ngFor="let providerProfile of jobProviderProfile">
+
+    <div class="row mx-3">
+
+      <!-- LEFT SIDE -->
+      <div class="col-md-5 text-secondary">
+
+        <!-- PROFILE CARD -->
+        <div class="card p-3 mb-4 text-center">
+
+          <img 
+            src="assets/images/settings/cheerful-curly.png"
+            class="img-fluid mx-auto d-block mb-3"
+            style="width:120px;"
+          >
+
+          <h5 class="text-dark">
+            {{ providerProfile?.seekerUserName }}
+          </h5>
+
+          <p class="small text-muted">
+            {{ providerProfile?.jobPostJobTitle }}
+          </p>
+
+          <div class="mt-3 text-left">
+
+            <p>
+              <img src="assets/images/settings/sms.png" class="mr-2">
+              {{ providerProfile?.resumeTitle }}
+            </p>
+
+            <p>
+              <img src="assets/images/settings/location.png" class="mr-2">
+              Application ID: {{ providerProfile?.id }}
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- ABOUT / COVER LETTER -->
+        <div class="card p-3 mb-4">
+
+          <h5 class="text-dark">Cover Letter</h5>
+
+          <p>
+            {{ providerProfile?.coverLetter || 'No description available' }}
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="col-md-6 text-secondary">
+
+        <!-- COVER LETTER -->
+        <app-application-seeker-professional-info
+          [data]="[providerProfile?.coverLetter]"
+          [title]="'Cover Letter'"
+          [image]="img1">
+        </app-application-seeker-professional-info>
+
+        <!-- RESUME -->
+        <app-application-seeker-professional-info
+          [data]="[providerProfile?.resumeTitle]"
+          [title]="'Resume'"
+          [image]="img2">
+        </app-application-seeker-professional-info>
+
+        <!-- JOB -->
+        <app-application-seeker-professional-info
+          [data]="[providerProfile?.jobPostJobTitle]"
+          [title]="'Applied Job'"
+          [image]="img3">
+        </app-application-seeker-professional-info>
+<div class="text-center mt-3">
+         <button class="btn-schedule"  [routerLink]="['/interview/schedule', providerProfile.application]"  [queryParams]="{ jobTitle: providerProfile.jobPostJobTitle }">Schedule</button>
+
+</div>
+      </div>
+
+    </div>
+
+  </ng-container>
+
+</div>

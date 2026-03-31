@@ -1,0 +1,50 @@
+.content-box
+{
+
+    border-bottom: 15px solid transparent;
+    /* border-left: 25px solid #467fe7;  */
+
+}
+.inmsg
+{
+    background-color: #dbe9f1;
+    border-radius: 0px 5px 5px 5px;
+}
+.content-box1
+{
+    border-bottom: 15px solid transparent;
+    border-right: 25px solid   #dbe9f1;
+}
+.outmsg
+{
+    background-color: #467fe7;
+    border-radius: 5px 0px 5px 5px;
+}
+.member:hover
+{
+ background-color: rgb(233, 237, 245);
+}
+.scrollable-div {
+    width: 300px; /* Set the width of the div */
+    height: 200px; /* Set the height of the div */
+    overflow: auto; /* This will add scrollbars when necessary */
+    /* You can also use overflow-x or overflow-y to specify horizontal or vertical scrolling */
+  }
+  .message {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  .text-secondary {
+    color: #6c757d;
+  }
+  
+  .bg-primary {
+    background-color: #007bff;
+  }
+  
+  .text-white {
+    color: #fff;
+  }

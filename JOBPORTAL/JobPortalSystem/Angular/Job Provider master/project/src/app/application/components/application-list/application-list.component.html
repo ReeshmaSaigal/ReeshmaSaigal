@@ -1,0 +1,93 @@
+<div class="container-fluid">
+
+  <!-- Title -->
+  <div class="row mt-4">
+    <h5>FIND APPLICATIONS</h5>
+  </div>
+
+  <!-- Search -->
+  <div class="row mt-1">
+    <div class="col-md-9">
+      <input 
+        class="form-control border rounded-pill" 
+        type="search" 
+        placeholder="Search applications...">
+    </div>
+  </div>
+
+  <!-- Count -->
+  <div class="row">
+    <div class="col-md-7">
+
+      <p class="paragraph-heading-1 mt-4">
+        Showing {{ applicationCount }} applications
+      </p>
+
+      <!-- Loader -->
+      <div *ngIf="isLoading" class="text-center mt-4">
+        <p>Loading applications...</p>
+      </div>
+
+      <!-- No Data -->
+      <div *ngIf="!isLoading && applications.length === 0" class="text-center mt-4">
+        <p>No applications found 😕</p>
+      </div>
+
+      <!-- List -->
+      <ng-container *ngFor="let application of applications">
+
+        <div class="card bg-light mb-3 shadow-sm">
+
+          <div class="card-body">
+            <div class="row align-items-center">
+
+              <!-- Image -->
+              <div class="col-md-2 text-center">
+                <img 
+                  src="../../../../assets/images/Applications/man.png" 
+                  class="img-fluid" 
+                  style="max-height: 60px;">
+              </div>
+
+              <!-- Content -->
+              <div class="col-md-8">
+
+                <h5>{{ application.seekerUserName }}</h5>
+
+                <p class="mb-1">
+                  <b>Job:</b> {{ application.jobPostJobTitle }}
+                </p>
+
+                <p>
+                  <b>Resume:</b> {{ application.resumeTitle }}
+                </p>
+
+              </div>
+
+              <!-- Button -->
+               <div class="job-actions">
+        <button class="btn-view"  [routerLink]="['/application/view', application.id]"> View</button>
+        <!-- <button class="btn-delete" (click)="deleteJob(jobList.id)">Delete</button> -->
+        <button class="btn-schedule"  [routerLink]="['/interview/schedule', application.id]"  [queryParams]="{ jobTitle: application.jobPostJobTitle }">Schedule</button>
+      </div>
+             
+
+            </div>
+          </div>
+
+        </div>
+
+      </ng-container>
+
+    </div>
+
+    <!-- Right Image -->
+    <div class="col-md-5">
+      <img 
+        src="../../../../assets/images/bg-images/business-finance-employment-female.png"
+        class="img-fluid">
+    </div>
+
+  </div>
+
+</div>

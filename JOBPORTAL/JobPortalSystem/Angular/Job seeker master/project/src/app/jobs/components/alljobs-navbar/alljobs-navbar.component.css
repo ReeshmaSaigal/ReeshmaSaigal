@@ -1,0 +1,67 @@
+/* header.component.css */
+header {
+    background-color: #ffff;
+    height: 60px;
+    padding: 10px;
+    color: #040303;
+    border-bottom: 1px solid rgb(8, 8, 8);
+  }
+
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    margin-right: auto;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    color: #080505;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  .word-wrap{
+    margin-left: 10px;
+  }
+  a:hover{
+    background-color: rgb(232, 237, 237);
+  }
+  
+  .icon {
+    display: none;
+    cursor: pointer;
+  }
+  span{
+    color: grey;
+  }
+  
+  .icon i {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .menu {
+      display: none;
+    }
+  
+    .icon {
+      display: block;
+    }
+  
+    .responsive {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .responsive a {
+      margin: 10px 0;
+    }
+  }

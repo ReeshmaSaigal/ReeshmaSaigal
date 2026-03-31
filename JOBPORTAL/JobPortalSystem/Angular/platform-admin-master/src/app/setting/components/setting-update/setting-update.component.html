@@ -1,0 +1,50 @@
+<div class="container-fluid h-100">
+    <div class="row">
+        <h6>Welcome,Admin</h6>
+        <span class="small"></span>
+    </div>
+    <div class="row mt-4">
+        <span class="account"><i class="bi bi-person-fill"></i>Account</span>
+        <hr class="w-25">
+    </div>
+    <div *ngFor="let profileDetails of profile">
+        <div class="row mt-4">
+            <div class="col-md-9">
+                <span><img [src]="profileDetails.profilePic" alt="profilePic"></span>
+            </div>
+            <div class="col-md-3">
+                <span class="account">Upload new picture</span>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-8">
+                <form [formGroup]="profileForm" (ngSubmit)="updateProfile()">
+          <div class="mb-3 ms-3">
+            <label for="fullname" class="form-label">Fullname</label>
+            <input type="text" class="form-control p-3" id="fullname" placeholder="please enter your fullname" formControlName="fullname">
+          </div>
+          <div class="mb-3 ms-3">
+            <label for="Username" class="form-label">Username</label>
+            <input type="text" class="form-control p-3" id="username" placeholder="please enter your username" formControlName="username">
+          </div>
+          <div class="mb-3 ms-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control p-3" id="email" placeholder="please enter your email" formControlName="email">
+          </div>
+          <div class="mb-3 ms-3">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" id="password" class="form-control p-3" placeholder="please enter your password" formControlName="password">
+          </div>
+          <div class="mb-3 ms-3">
+            <label for="confirmPassword" class="form-label">Confirm Password:</label>
+            <input type="password" id="confirmPassword" class="form-control p-3" placeholder="please enter confirm password" formControlName="confirmPassword">
+          </div>
+          <button type="submit" class="border-0 p-3 text-center">Update Profile</button>
+        </form>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+ 

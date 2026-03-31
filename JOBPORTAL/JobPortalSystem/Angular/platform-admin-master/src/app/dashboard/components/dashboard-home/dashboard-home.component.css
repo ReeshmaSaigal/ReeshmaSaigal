@@ -1,0 +1,11 @@
+.card-img {
+    max-width: 10%; /* Adjust the desired max width for the image */
+    max-height:10%; /* Adjust the desired max height for the image */
+  }
+  
+  
+ .card-text {
+   font-weight: bold;
+ }
+  
+  

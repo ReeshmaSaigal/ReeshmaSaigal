@@ -1,0 +1,504 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\views\\destinations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:views\\destinations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\views\\destinations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:views\\destinations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\views\\destinations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:views\\destinations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\views\\destinations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:views\\destinations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\services\\destinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:services\\destinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\services\\destinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:services\\destinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\dto\\destinationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:dto\\destinationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\models\\destinationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:models\\destinationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\helper\\appprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:helper\\appprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\dto\\destinationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:dto\\destinationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\services\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:services\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\dto\\authuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:dto\\authuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\migrations\\20251021113819_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:migrations\\20251021113819_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\interfaces\\idestinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:interfaces\\idestinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\interfaces\\idestinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:interfaces\\idestinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\dto\\destinationpatchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:dto\\destinationpatchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\tourdestinationmvcapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:tourdestinationmvcapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|d:\\reeshma\\projects\\tour booking project\\tourmaterials\\mvc\\workshop\\tourdestinationmvcapp\\migrations\\20251021113819_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C174032-2C01-444B-88F2-088F2DCDAC2C}|TourDestinationMVCApp.csproj|solutionrelative:migrations\\20251021113819_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Destinations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Destinations\\Edit.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Destinations\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Destinations\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T10:59:18.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Destinations\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Destinations\\Create.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Destinations\\Create.cshtml",
+              "RelativeToolTip": "Views\\Destinations\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T11:15:52.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Destinations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Destinations\\Index.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Destinations\\Index.cshtml",
+              "RelativeToolTip": "Views\\Destinations\\Index.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T12:05:35.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DestinationsController.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Controllers\\DestinationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DestinationsController.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Controllers\\DestinationsController.cs",
+              "RelativeToolTip": "Controllers\\DestinationsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:00:09.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DestinationDbContext.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Models\\DestinationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\DestinationDbContext.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Models\\DestinationDbContext.cs",
+              "RelativeToolTip": "Models\\DestinationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:10:13.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T05:58:02.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Destinations\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Destinations\\Details.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Destinations\\Details.cshtml",
+              "RelativeToolTip": "Views\\Destinations\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T10:59:28.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DestinationDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\DestinationDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DestinationDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\DestinationDto.cs",
+              "RelativeToolTip": "DTO\\DestinationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:00:17.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DestinationRepository.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Services\\DestinationRepository.cs",
+              "RelativeDocumentMoniker": "Services\\DestinationRepository.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Services\\DestinationRepository.cs",
+              "RelativeToolTip": "Services\\DestinationRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:38:49.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DestinationService.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Services\\DestinationService.cs",
+              "RelativeDocumentMoniker": "Services\\DestinationService.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Services\\DestinationService.cs",
+              "RelativeToolTip": "Services\\DestinationService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwA0AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:50:38.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationServiceExtensions.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ApplicationServiceExtensions.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeToolTip": "Extensions\\ApplicationServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:22:53.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppProfile.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Helper\\AppProfile.cs",
+              "RelativeDocumentMoniker": "Helper\\AppProfile.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Helper\\AppProfile.cs",
+              "RelativeToolTip": "Helper\\AppProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:57:16.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DestinationResponseDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\DestinationResponseDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DestinationResponseDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\DestinationResponseDto.cs",
+              "RelativeToolTip": "DTO\\DestinationResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:02:49.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwBkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:22:07.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAEwEsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T04:52:30.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Services\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Services\\AuthRepository.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Services\\AuthRepository.cs",
+              "RelativeToolTip": "Services\\AuthRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:45:23.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthUser.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Models\\AuthUser.cs",
+              "RelativeDocumentMoniker": "Models\\AuthUser.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Models\\AuthUser.cs",
+              "RelativeToolTip": "Models\\AuthUser.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwBYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:30:40.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T05:41:13.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAIAwwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:56:20.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:55:11.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthUserDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\AuthUserDto.cs",
+              "RelativeDocumentMoniker": "DTO\\AuthUserDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\AuthUserDto.cs",
+              "RelativeToolTip": "DTO\\AuthUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:03:57.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251021113819_initial.Designer.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Migrations\\20251021113819_initial.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251021113819_initial.Designer.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Migrations\\20251021113819_initial.Designer.cs",
+              "RelativeToolTip": "Migrations\\20251021113819_initial.Designer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAD4vw8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:16:15.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IDestinationRepository.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Interfaces\\IDestinationRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDestinationRepository.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Interfaces\\IDestinationRepository.cs",
+              "RelativeToolTip": "Interfaces\\IDestinationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:37:07.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IDestinationService.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Interfaces\\IDestinationService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDestinationService.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Interfaces\\IDestinationService.cs",
+              "RelativeToolTip": "Interfaces\\IDestinationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:49:54.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "DTO\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:33:57.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DestinationPatchDto.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\DestinationPatchDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DestinationPatchDto.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\DTO\\DestinationPatchDto.cs",
+              "RelativeToolTip": "DTO\\DestinationPatchDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:01:25.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TourDestinationMVCApp.csproj",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\TourDestinationMVCApp.csproj",
+              "RelativeDocumentMoniker": "TourDestinationMVCApp.csproj",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\TourDestinationMVCApp.csproj",
+              "RelativeToolTip": "TourDestinationMVCApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T11:21:46.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Interfaces\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuthRepository.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Interfaces\\IAuthRepository.cs",
+              "RelativeToolTip": "Interfaces\\IAuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:44:38.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20251021113819_initial.cs",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Migrations\\20251021113819_initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251021113819_initial.cs",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\Migrations\\20251021113819_initial.cs",
+              "RelativeToolTip": "Migrations\\20251021113819_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:38:20.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Reeshma\\PROJECTS\\Tour Booking Project\\TourMaterials\\MVC\\workshop\\TourDestinationMVCApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-21T11:14:59.938Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

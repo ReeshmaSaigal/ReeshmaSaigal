@@ -1,0 +1,64 @@
+<div class="page-wrapper">
+  <div class="card-container">
+
+    <div class="top-header">
+      <h2 class="title">Select Branch</h2>
+      <button 
+        class="btn btn-small rounded-pill text-white shadow add-btn" routerLink="addbranch">
+        <i class="bi bi-plus-circle me-2"></i> Add
+      </button>
+    </div>
+
+    <p class="subtitle">Choose the branch location from the list below</p>
+
+    <form [formGroup]="branchForm" (ngSubmit)="onSubmit()" class="form-body">
+
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Select Branch</mat-label>
+        <mat-select formControlName="branch">
+          <mat-option value="">Select Branch</mat-option>
+          <mat-option *ngFor="let b of branches" [value]="b.branchId">
+            {{b.branchName}} 
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" class="btn-save full-width" type="submit" [disabled]="branchForm.invalid">
+        Select Branch
+      </button>
+
+  
+
+    </form>
+  </div>
+</div>
+
+<div class="branch-card-list">
+  <div class="branch-card" *ngFor="let b of branches">
+
+    <div class="card-header">
+      <h3>{{ b.branchName }}</h3>
+
+      <div class="card-top-actions">
+  <button class="btn-edit" (click)="editBranch(b.branchId)">
+    <i class="bi bi-pencil-square"></i>
+  </button>
+
+  <button class="btn-delete" (click)="confirmDelete(b.branchId)">
+    <i class="bi bi-trash"></i>
+  </button>
+</div>
+
+    </div>
+
+    <div class="card-body">
+      <p><i class="bi bi-geo-alt-fill location-icon"></i> {{ b.location }}</p>
+      <p><i class="bi bi-mailbox"></i> {{ b.pinCode }}</p>
+    </div>
+
+    <button mat-raised-button color="primary" class="select-btn" (click)="selectBranch(b.branchId)">
+      <i class="bi bi-check2-circle me-2"></i> Select
+    </button>
+
+  </div>
+</div>

@@ -1,0 +1,34 @@
+.border {
+    border: 1px solid #525258!important;
+    box-shadow: 1px 1px 0px 1px;
+}
+
+.rounded-pill {
+    border-radius: 1rem!important;
+}
+
+.paragragh-heading-1 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.view-btn {
+    background: #117EBD;
+    border-radius: 20px;
+    width: 25%;
+    font-family: 'DM Sans' !important;
+}
+.btn-view {
+  background: #6775f6;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+.btn-schedule {
+  background: #c0e7e0;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+}

@@ -1,0 +1,29 @@
+﻿@model IEnumerable< TourDestinationMVCApp.DTO.DestinationResponseDto>
+
+@{
+    ViewData["Title"] = "Destinations";
+}
+
+<h2>Destinations</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Destination</a>
+</p>
+
+<div class="row">
+    @foreach(var destination in Model)
+    {
+        <div class="col-md-3 mb-3">
+            <div class="card">
+                @if (!string.IsNullOrEmpty(destination.ImageUrl))
+                {
+                    <img src="@destination.ImageUrl" class="card-img-top" style="height:150px;object-fit:cover" />
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@destination.Name</h5>
+                    <p class="card-text">@destination.City</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

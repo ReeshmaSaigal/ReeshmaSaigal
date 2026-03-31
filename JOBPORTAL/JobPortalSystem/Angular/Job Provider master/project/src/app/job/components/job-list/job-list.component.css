@@ -1,0 +1,158 @@
+.border {
+    border: 1px solid #525258 !important;
+    box-shadow: 1px 1px 0px 1px;
+}
+
+.rounded-pill {
+    border-radius: 1rem !important;
+}
+
+.bg-color {
+    background-color: rgb(235, 241, 246);
+}
+
+h5 {
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    /* Remove default bullet points for the entire list */
+    display: inline;
+    margin-left: 10px;
+}
+
+.with-bullet:before {
+    content: '\2022';
+
+}
+
+.inline-div {
+    flex: 1;
+
+    background-color: rgb(136, 132, 127);
+    border-radius: 35px;
+    color: #fff;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(235, 241, 246);
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+}
+
+.custom-column {
+    width: 15%;
+}
+
+.card:hover {
+    background-color: rgb(235, 239, 244);
+}
+/* Search bar */
+input[type="search"] {
+  border-radius: 30px;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+input[type="search"]:focus {
+  outline: none;
+  border-color: #20A6FC;
+  box-shadow: 0 0 0 3px rgba(32,166,252,0.15);
+}
+
+/* Job Card */
+.job-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.company-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+/* Title */
+.job-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.company {
+  font-size: 13px;
+  color: gray;
+}
+
+/* Summary */
+.job-summary {
+  margin: 12px 0;
+  color: #444;
+}
+
+/* Tags */
+.job-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  background: #eef6ff;
+  color: #007bff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* Buttons */
+.job-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-update {
+  background: #20A6FC;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+.btn-delete {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+.btn-schedule {
+  background: #f0f0f0;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 8px;
+}

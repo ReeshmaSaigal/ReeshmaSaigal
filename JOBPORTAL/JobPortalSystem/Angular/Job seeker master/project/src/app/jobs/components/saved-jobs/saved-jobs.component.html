@@ -1,0 +1,19 @@
+<div class="container mt-4">
+  <h4>Saved Jobs</h4>
+
+  <div *ngIf="savedJobs.length === 0" class="text-center mt-5">
+    No saved jobs 😕
+  </div>
+
+  <div *ngFor="let job of savedJobs" class="card mb-3 p-3">
+
+    <h5>{{job.jobPost?.jobTitle}}</h5>
+    <p>{{job.jobPost?.locationName}}</p>
+
+    <button class="btn btn-danger btn-sm"
+            (click)="removeSaved(job)">
+      Remove
+    </button>
+
+  </div>
+</div>

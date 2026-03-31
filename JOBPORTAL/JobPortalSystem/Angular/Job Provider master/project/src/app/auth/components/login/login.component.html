@@ -1,0 +1,77 @@
+ <!-- <div class="container">
+    <div class="login-container">
+      <div class="image-container">
+        <img src="assets/images/login/side-image.jpg" alt="Side Image" class="side-image">
+      </div>
+      <div class="form-container">
+        <img src="assets/images/login/Logo.png" class="logo" alt="Logo">
+        <h2 class="font">Welcome Back</h2>
+
+        <form #loginForm="ngForm" (ngSubmit)="login(loginForm)" class="animate__animated animate__fadeIn">
+
+          <div class="input-group">
+            <input type="text" name="email" placeholder="Your Email" class="form-control" ngModel>
+          </div>
+          <div class="input-group">
+            <input type="password" name="password" placeholder="Your Password" class="form-control" ngModel>
+          </div>
+          <div class="checkbox-group">
+            <input class="form-check-input" type="checkbox" id="exampleCheckbox">
+            <label class="form-check-label" for="exampleCheckbox">Keep me logged in</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Login</button>
+
+          <p class="signup-link">Don't have an account yet? <a [routerLink]="['/signup']"><b>Sign up</b></a></p>
+        </form>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="container">
+    <div class="background-image"></div>
+    <div class="login-box animate__animated animate__fadeIn">
+      <h1 class="logo">Login</h1>
+      <form #loginForm="ngForm" (ngSubmit)="login(loginForm)" class="animate__animated animate__fadeInUp">
+
+  <!-- GLOBAL ERROR -->
+  <div *ngIf="errorMessage" class="error-box">
+    {{ errorMessage }}
+  </div>
+
+  <div class="input-field">
+    <input 
+      type="text" 
+      name="email" 
+      placeholder="Your Email" 
+      class="form-control"
+      ngModel 
+      required
+      #email="ngModel">
+
+    <small class="text-danger" *ngIf="isSubmitted && email.invalid">
+      Email is required
+    </small>
+  </div>
+
+  <div class="input-field">
+    <input 
+      type="password" 
+      name="password" 
+      placeholder="Your Password" 
+      class="form-control"
+      ngModel 
+      required
+      #password="ngModel">
+
+    <small class="text-danger" *ngIf="isSubmitted && password.invalid">
+      Password is required
+    </small>
+  </div>
+
+  <button type="submit" class="btn btn-primary mt-3">Login</button>
+</form>
+      <a href="#" class="forgot-password">Forgot password?</a>
+      <p class="signup-link text-white">Don't have an account yet? <a [routerLink]="['/signup']"><b>Sign up</b></a></p>
+    </div>
+  </div>

@@ -1,0 +1,17 @@
+﻿@model ConsultantMVCApp.DTO.ConsultantDetailsDto
+@{
+    Layout = "_TourLayout";
+}
+<div class="card shadow p-4">
+    <h3>@Model.FirstName </h3>
+    <p>Email: @Model.Email</p>
+    <p>Phone: @Model.TelephoneNo</p>
+    <p>Username: @Model.UserName</p>
+    <p>Gender: @Model.Gender</p>
+    <p>Date of Birth: @Model.DateOfBirth</p>
+
+
+    <p>Joined: @Model.CreatedAt.ToShortDateString()</p>
+
+    <a asp-action="Index" class="btn btn-secondary mt-3">Back</a>
+</div>

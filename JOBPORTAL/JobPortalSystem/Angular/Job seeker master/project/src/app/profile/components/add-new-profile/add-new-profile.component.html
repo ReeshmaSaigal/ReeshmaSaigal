@@ -1,0 +1,73 @@
+<div class="container">
+
+  <!-- ADD PROFILE -->
+  <button class="btn btn-primary mb-3 w-100"
+          (click)="navigateToAddProfile()">
+    Add New Profile
+  </button>
+
+  <div class="row">
+
+    <div class="col-md-6 mb-4"
+         *ngFor="let profile of profiles">
+
+      <div class="card profile-card shadow-sm">
+
+        <!-- HEADER -->
+        <div class="card-header text-white text-center">
+          <h5 class="mb-0">{{ profile.profileName }}</h5>
+        </div>
+
+        <!-- BODY -->
+        <div class="card-body text-center">
+
+          <!-- SUMMARY -->
+          <p class="mb-3">{{ profile.profileSummary }}</p>
+
+          <!-- VIEW PROFILE -->
+          <button class="btn btn-success mb-3"
+                  (click)="viewProfile(profile.id)">
+            View Profile
+          </button>
+
+          <!-- ✅ RESUME STATUS -->
+          <div *ngIf="profile.resumeId; else noResume" class="mb-3">
+
+            <p class="text-success fw-bold">✅ Resume Uploaded</p>
+
+            <button class="btn btn-outline-primary btn-sm"
+                    (click)="viewResume(profile.id)">
+              View Resume
+            </button>
+
+          </div>
+
+          <!-- ❌ NO RESUME -->
+          <ng-template #noResume>
+            <p class="text-danger mb-3">❌ No Resume Uploaded</p>
+          </ng-template>
+
+          <!-- 📂 FILE UPLOAD -->
+          <div class="upload-box">
+
+            <input type="file"
+                   class="form-control mb-2"
+                   accept=".pdf,.doc,.docx"
+                   (change)="onFileChange($event, profile.id)">
+
+            <button class="btn btn-info w-100"
+                    (click)="uploadResume(profile)">
+              Upload Resume
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

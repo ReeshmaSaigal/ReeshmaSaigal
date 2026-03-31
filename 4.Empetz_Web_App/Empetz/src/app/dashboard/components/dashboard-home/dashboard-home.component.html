@@ -1,0 +1,39 @@
+<div class="container my-5">
+  <h2 class="text-center mb-4">Pets Available for Adoption</h2>
+
+  <!-- Search Section -->
+  <div class="mb-4 d-flex justify-content-between">
+    <input type="text" class="form-control w-50" placeholder="Search pets...">
+    <button class="btn btn-outline-primary">Search</button>
+  </div>
+
+  <!-- Pets Grid -->
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let pet of pets">
+      <div class="card pet-card position-relative">
+        <!-- Pet Image -->
+        <img [src]="pet.imageUrl" class="card-img-top" alt="{{pet.name}}">
+
+        <!-- Transparent Hover Overlay with Icon -->
+        <div class="hover-overlay position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
+          <i class="fas fa-search hover-icon"></i>
+        </div>
+
+        <!-- Pet Info -->
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ pet.name }}</h5>
+          <p class="card-text">{{ pet.description }}</p>
+          <button class="btn btn-primary btn-block">View Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="pagination justify-content-center mt-4">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </div>
+</div>

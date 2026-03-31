@@ -1,0 +1,109 @@
+{
+  "job": [
+    {
+      "id": 1,
+      "jobTitle": "Asp .net Core Developer",
+      "companyName": "Aitrich Technologies",
+      "location": "Thrissur",
+      "jobDescription": "We are a dynamic and innovative technology company specializing in developing cutting-edge software solutions for our clients worldwide. Our approach blends creativity, technology, and business acumen to create solutions that drive business growth across various sectors. Our team comprises passionate technologists and innovative problem solvers dedicated to building software that makes a difference",
+      "jobType": "Full Time",
+      "salary": 15000,
+      "onsite": "onsite"
+    },
+    {
+      "id": 2,
+      "jobTitle": "Angular Developer",
+      "companyName": "Aitrich Technologies",
+      "location": "Thrissur",
+      "jobDescription": "Job Title Angular Developer Responsibilities Design and Develop web applications using front-end technologies Angular 7/8/9 , CSS , JS , HTML and many more. Implement applications that have high standards of quality and the best of the performance. Translate UX / UI designs from our design teams into high quality code without any loss in translation. Design and implement optimised components, modules and applications using best practises of front-end development and clean coding standards Work closely with backend development teams on API design and integration.",
+      "jobType": "Full Time",
+      "salary": 25000,
+      "onsite": "onsite"
+    },
+    {
+      "jobTitle": "Java Developer",
+      "companyName": "Aitrich Technologies",
+      "location": "Thrissur",
+      "jobDescription": "Contribute to all stages of the software development lifecycleDesign, implement and maintain Java-based applications that can be high-volume and low-latencyEnvisioning system features and functionalityEnsure application designs conform to business goalsDevelop and test softwareCreate detailed design documentationPropose changes to the current Java infrastructureDevelop multimedia applicationsConducting software analysis, programming, testing, and debuggingDevelop documentation to help usersTransforming requirements into stipulationsSupport continuous improvement, investigating alternatives and technologies",
+      "jobType": "Full Time",
+      "salary": "50000",
+      "onsite": "Remote",
+      "id": 3
+    },
+    {
+      "jobTitle": "DevOps Engineer",
+      "companyName": "Aitrich Technologies",
+      "location": "Thrissur",
+      "jobDescription": "We are looking for a highly skilled and experienced DevOps Lead to join our team. As a DevOps Lead, you will be responsible for optimizing our cloud infrastructure, improving the scalability of our services, implementing efficient monitoring and analytics solutions, and ensuring seamless operations across multiple cloud platforms, including AWS and Google Cloud Platform (GCP).\n",
+      "jobType": "Full Time",
+      "salary": "50000",
+      "onsite": "Onsite",
+      "id": 4
+    },
+    {
+      "jobTitle": "ux designer",
+      "companyName": "aitrich",
+      "location": "thrissur",
+      "jobDescription": "rtrtrtrtr",
+      "jobType": "jhfjdf",
+      "salary": "15545",
+      "onsite": "fgdfg",
+      "id": 5
+    }
+  ],
+  "application": [
+    {
+      "jobSeekerName": "Alex",
+      "jobSeekerQualification": "MCA",
+      "jobSeekerExperience": "2 years"
+    },
+    {
+      "jobSeekerName": "John",
+      "jobSeekerQualification": "BTech",
+      "jobSeekerExperience": "4 years"
+    }
+  ],
+  "interviewSchedule": [
+    {
+      "jobTitle": "Asp .net Core Developer",
+      "dateOfInterview": "05-06-2023",
+      "location": "Online",
+      "time": "10.30 am"
+    },
+    {
+      "jobTitle": "DevOps Engineer",
+      "dateOfInterview": "06-06-2023",
+      "location": "Aitrich Technologies Thrissur",
+      "time": "11.30 am"
+    }
+  ],
+  "jobProviderProfile": [
+    {
+      "id": 1,
+      "jobProviderName": "Bindhu Pillai",
+      "designation": "Java Developer",
+      "email": "bindhu1996@mail.com",
+      "username": "bindhup",
+      "password": "bindhu007",
+      "phone": 123456789012,
+      "location": "Ernakulam",
+      "about": "Hardworking , dedicated candidate with proffessional qualification in IT, seeking an opportunity to work with a growth oriented organization on a real time software development project.",
+      "skills": "Operating Systems: Windows 9x/NT/2000,DOS/Unix/LinuxIDE Tools:JBuilderDatabases: PL. /SQLLanguages: Java,C,C++,c#,Asp.Net,PHPWebTechnologies: HTML,JSP,Servlets,Struts Framework,PhotoshopApplicationServers: BEA WebLogic&.)Web Servers: Tomcat 5.0, Apache",
+      "education": "Bachelor of Arts - Design    Field & Fort University",
+      "experience": "Advertising Speciality Institute, San Francisco, TX - Graphic Designer Dec 18 - June 20"
+    }
+  ],
+  "companyProfile": [
+    {
+      "companyName": "Aitrich Technologies",
+      "companyWebsite": "https://aitrichacademy.com",
+      "companyMail": "aitrich@mail.com",
+      "companyPhone": 9645789563,
+      "companyLocation": "Thrissur",
+      "aboutCompany": "Aitrich technologies is a leading provider of state of the complex IT Solutions to customers in India, USA, Europe and the middle east.Recognizing the need scaling up its operations at aglobal level, ASitrich set up its strategic facility at Thrissur (Kerale) India to provide clients round the clock (24X7) service.Thrissur has one of theheighest literacy rates in all of Asia as well as one of the heighest Int.",
+      "companyVision": "To be the Technology partner of choice for forward looking customers collabratively transforming technology into business advantage.",
+      "companyMission": "Provide best quality training on cutting edge software technologies relevant for the industry.",
+      "contactDetails": "Aitrich Technologies Pvt. Ltd.,,19/60,Visitors building,,M.G Road, Thrissur-4,Kerala, India."
+    }
+  ]
+}

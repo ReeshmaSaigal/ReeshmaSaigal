@@ -1,0 +1,53 @@
+/* fiter component */
+
+.btn-filter {
+    margin-right: 8px;
+    background-color: #c7a9e1;;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 8px 16px;
+    /* cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; */
+  }
+
+  .btn-filter:active {
+  background-color: green;
+  color: rgb(0, 0, 0);
+  }
+
+  .btn-filter.hover {
+    background-color: #220838;
+    color: #ffffff;
+  }
+ 
+
+/* table component */
+
+.btn-pending {
+    border-color: rgb(170, 172, 172);
+    border-radius: 20px;
+    color: rgb(170, 172, 172);
+  }
+  
+  .btn-on-hold {
+    border-color: rgb(234, 149, 21);
+    border-radius: 20px;
+    color: rgb(234, 149, 21);
+  }
+  
+  .btn-candidate {
+    border-color: rgb(13, 123, 21);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(13, 123, 21) ;
+  }
+  
+  .btn-approved {
+    background-color: rgb(73, 41, 213);
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .table-responsive{
+    background-color: #ffffff;
+  }

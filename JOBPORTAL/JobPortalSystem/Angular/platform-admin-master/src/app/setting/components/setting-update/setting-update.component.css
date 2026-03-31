@@ -1,0 +1,16 @@
+.account
+{
+    color: #9340FB;
+    font-size: small;
+}
+form
+{
+    color:#4C535F;
+    font-size: large;
+    font-weight:500;
+}
+button
+{
+    background-color: #40189D;
+    color: white;
+}
