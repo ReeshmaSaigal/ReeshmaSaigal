@@ -1,0 +1,30 @@
+<button class="btn btn-outline-warning btn-sm mt-4" (click)="backPost()"><i class="fa-solid fa-backward"></i></button>
+
+<div class="container mt-3 mb-4">
+  <div class="card shadow-lg border-0 rounded" >
+    <img [src]="pet[0].imagePath" class="card-img-top img-fluid" alt="Pet Image">
+    <div class="card-body">
+      <h2 class="card-title">{{ pet.name }}</h2>
+      <p class="card-text text-muted"><strong>Breed : </strong> {{ pet[0].breedName }}</p>
+      <p class="card-text text-muted"><strong>Category : </strong> {{ pet[0].categoryName }}</p>
+      <p class="card-text text-muted"><strong>Age : </strong> {{ pet[0].age }} years</p>
+      <p class="card-text text-muted"><strong>Gender : </strong> {{ pet[0].gender }}</p>
+      <p class="card-text text-muted"><strong>Location : </strong> {{ pet[0].locationName }}</p>
+      <p class="card-text text-muted"><strong>Height : </strong> {{ pet[0].height }} cm</p>
+      <p class="card-text text-muted"><strong>Weight : </strong> {{ pet[0].weight }} kg</p>
+      <p class="card-text text-muted"><strong>Vaccination Date : </strong> {{ pet[0].vaccinationDate | date }}</p>
+      <p class="card-text text-muted"><strong>Vaccinated : </strong> {{ pet[0].vaccinated ? 'Yes' : 'No' }}</p>
+      <p class="card-text text-muted"><strong>Certified : </strong> {{ pet[0].certified ? 'Yes' : 'No' }}</p>
+      <p class="card-text text-muted"><strong>Status : </strong> {{ pet[0].status }}</p>
+      <p class="card-text text-muted"><strong>Owner : </strong> {{ pet[0].userFirstName }}</p>
+      <p class="card-text text-muted"><strong>Contact Phone : </strong> {{ pet[0].phone ? pet.phone : 'N/A' }}</p>
+      <p class="card-text text-muted"><strong>Address : </strong> {{ pet[0].address }}</p>
+      <p class="card-text text-muted"><strong>Posted On : </strong> {{ pet[0].petPosted | date }}</p>
+      <p class="card-text text-muted"><strong>Price : </strong> ${{ pet[0].price }}</p>
+      <p class="card-text">{{ pet[0].description }}</p>
+      <div class="card-footer bg-transparent border-top-0 d-flex justify-content-between">
+       
+      </div>
+    </div>
+  </div>
+</div>

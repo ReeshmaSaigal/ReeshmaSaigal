@@ -1,0 +1,101 @@
+<mat-toolbar class="mat-elevation-z8 mat-primary">
+  <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+    <mat-icon *ngIf="!sidenav.opened">menu</mat-icon>
+    <mat-icon *ngIf="sidenav.opened">close</mat-icon>
+  </button>
+
+  <span class="example-spacer"></span>
+
+  <div class="mr-auto">
+    <img
+      alt=""
+      class="avatarr mat-elevation-z8"
+      src="https://source.unsplash.com/c_GmwfHBDzk/200x200"
+      style="width: 40px; height: 40px;"
+    />
+
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+      <mat-icon><i class="bi bi-caret-down-fill"></i></mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon><i class="bi bi-info-lg"></i></mat-icon>
+        <span>Help</span>
+      </button>
+
+      <button mat-menu-item>
+        <mat-icon>phone</mat-icon>
+        <span>Contact Us</span>
+      </button>
+      <button mat-menu-item (click)="logout()">
+        <mat-icon>logout</mat-icon>
+        <span>Logout</span>
+      </button>
+    </mat-menu>
+  </div>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav class="sidenav" mode="over" [opened]="false">
+    <nav>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['dashboard']" (click)="closeSidebar()">
+            <i class="fas fa-tachometer-alt"></i>
+            <span class="ms-2">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['posts/viewpost']" (click)="closeSidebar()">
+            <i class="fas fa-address-book"></i>
+            <span class="ms-2">View All Posts</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['breed']" (click)="closeSidebar()">
+            <i class="fas fa-address-book"></i>
+            <span class="ms-2">Breed</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['category/category']" (click)="closeSidebar()">
+            <i class="fas fa-address-book"></i>
+            <span class="ms-2">Category</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['users/user-details']" (click)="closeSidebar()">
+            <i class="fas fa-address-book"></i>
+            <span class="ms-2">User Details</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['users/block-user']" (click)="closeSidebar()">
+            <i class="fas fa-users-slash"></i>
+            <span class="ms-2">Block User</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['locations/location']" (click)="closeSidebar()">
+            <i class="fas fa-envelope"></i>
+            <span class="ms-2">Location</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#" (click)="closeSidebar()">
+            <i class="fas fa-envelope"></i>
+            <span class="ms-2">Message to User</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['notification/notification-view']" (click)="closeSidebar()">
+            <i class="fas fa-bell"></i>
+            <span class="ms-2">Notification</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </mat-sidenav>
+
+ 
+</mat-sidenav-container>

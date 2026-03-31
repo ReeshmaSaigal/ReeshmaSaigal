@@ -1,0 +1,47 @@
+ <!-- Search Input -->
+ <div class="row justify-content-center mb-4 p-4">
+  <div class="col-md-8">
+    <input
+      type="text"
+      class="form-control form-control-lg"
+      placeholder="Search Users..."
+      ngModel (input)="searchUsers($event)"
+    />
+  </div>
+</div>
+<div class="row p-4">
+  <div class="col-md-4" *ngFor="let user of fileteredUsers">
+    <div class="card mb-3">
+      <div class="card-body">
+        <div *ngIf="user.imagePath">
+          <img [src]="user.imagePath" class="img-fluid" alt="User Image">
+        </div>
+        <div *ngIf="!user.imagePath">
+          <img src="assets/default-user.png" class="img-fluid" alt="Default Image">
+        </div>
+        <h5 class="card-title">{{ user.firstName }} {{ user.lastName }}</h5>
+
+        <p class="card-text">
+          <strong>Username:</strong> {{ user.userName  }}<br>
+          <strong>Email:</strong> {{ user.email }}<br>
+          <strong>Phone:</strong> {{ user.phone }}<br>
+          <strong>Username:</strong> {{ user.userName  }}<br>
+          <strong>Status:</strong> {{ user.status  }}<br>
+          <strong>Username:</strong> {{ user.accuntcreated}}<br>
+          <strong>Role:</strong> {{ user.role }}<br>
+
+          <strong>Account Created:</strong> {{ user.accountcreated | date: 'short' }}<br>
+        </p>
+       
+          <button 
+            class="btn" 
+            [ngClass]="{'btn-success': user.status === 'Blocked', 'btn-danger': user.status === 'Active'}" 
+            (click)="toggleBlock(user)">
+            {{ user.status === 'Blocked' ? 'Unblock' : 'Block' }}
+          </button>
+      
+           
+       </div>
+    </div>
+  </div>
+</div>

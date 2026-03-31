@@ -1,0 +1,35 @@
+
+<div class="container login-container">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card login-card">
+                <div class="card-body">
+                    <h3 class="card-title text-center mb-4">Login to Pet Adoption</h3>
+                    <form #loginForm="ngForm" (ngSubmit)="loginSubmit(loginForm)">
+                        <div class="form-group">
+                            <label for="userName" class="form-label">userName</label>
+                           
+                            <input type="text" name="userName" class="form-control" #userName="ngModel" ngModel required placeholder="Enter your userName">
+                            <div *ngIf="userName.invalid && (userName.dirty || userName.touched)" class="text-danger">
+                                <small *ngIf="userName.errors?.['required']">Username is required.</small>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" name="password" class="form-control" #password="ngModel" required ngModel placeholder="Enter your password">
+                            <div *ngIf="password.invalid && (password.dirty || password.touched)" class="text-danger">
+                                <small *ngIf="password.errors?.['required']">Password is required.</small>
+                                <small *ngIf="password.errors?.['minlength']">Password must be at least 6 characters long.</small>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary login-btn mt-4">Login</button>
+                        <div class="text-center mt-3">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

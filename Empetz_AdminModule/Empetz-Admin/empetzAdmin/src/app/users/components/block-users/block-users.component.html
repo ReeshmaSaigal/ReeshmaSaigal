@@ -1,0 +1,30 @@
+<div class="container mt-5">
+    <div class="card">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <h5>Block Users</h5>
+      </div>
+      <div class="card-body">
+        <table class="table  table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">User Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Status</th>
+              <th scope="col">Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of blockedUsers; let i = index">
+              <th scope="row">{{ i + 1 }}</th>
+              <td>{{ user.userName }}</td>
+              <td>{{ user.email }}</td>
+              <td>{{ user.status}}</td>
+              <td>{{ user.phone }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

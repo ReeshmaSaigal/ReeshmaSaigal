@@ -1,0 +1,90 @@
+ <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Dashboard</h1>
+      </div>
+
+      <!-- Dashboard Cards -->
+      <div class="row">
+        <!-- Total Users Card -->
+        <div class="col-md-4">
+          <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Total Users</h5>
+              <p class="card-text display-4">{{totalUsers}}</p>
+              <i class="fas fa-users card-icon"></i>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Weekly Report Card -->
+        <div class="col-md-4">
+          <div class="card text-white bg-success mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Weekly Report</h5>
+              <p class="card-text display-4">{{weeklyUsers}}</p>
+              <i class="fas fa-calendar-week card-icon"></i>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Monthly Report Card -->
+        <div class="col-md-4">
+          <div class="card text-white bg-info mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Monthly Report</h5>
+              <p class="card-text display-4">{{monthlyUsers}}</p>
+              <i class="fas fa-calendar-alt card-icon"></i>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Yearly Report Card -->
+        <div class="col-md-4">
+          <div class="card text-white bg-warning mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Yearly Report</h5>
+              <p class="card-text display-4">{{yearlyUsers}}</p>
+              <i class="fas fa-calendar card-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Weekly Progress Bar -->
+        <div class="col-12 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Weekly Registration Progress</h5>
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar"  [style.width.%]="weeklyUsers"    [attr.aria-valuenow]="weeklyUsers" aria-valuemin="0" aria-valuemax="100">{{weeklyUsers}}%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Monthly Progress Bar -->
+        <div class="col-12 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Monthly Registration Progress</h5>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar"  [style.width.%]="monthlyUsers"  [attr.aria-valuenow]="monthlyUsers" aria-valuemin="0" aria-valuemax="100">{{monthlyUsers}}%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Yearly Progress Bar -->
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Yearly Registration Progress</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar"  [style.width.%]="yearlyUsers"  [attr.aria-valuenow]="yearlyUsers" aria-valuemin="0" aria-valuemax="100">{{yearlyUsers}}%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  

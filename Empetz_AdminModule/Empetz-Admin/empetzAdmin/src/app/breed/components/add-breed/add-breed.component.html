@@ -1,0 +1,71 @@
+<div class="container mt-4">
+  <!-- Add Breed Button -->
+
+  <div class="row d-flex align-items-center justify-content-center">
+    <div class=" col-md-12 p-4">
+      <h3 class="text-primary mb-4" (click)="toggleForm()">
+        {{ isVisibleAddForm ? 'Cancel' : 'Add Breed' }}</h3>
+      <div *ngIf="isVisibleAddForm" class="card p-3 mb-3">
+        <form [formGroup]="addBreedForm" (ngSubmit)="onAddSubmit()">
+          <div class="form-group w-50">
+            <select id="category" formControlName="category" aria-placeholder="Select Category" class="form-control ">
+
+              <option value='' selected>-- Categories --</option>
+              <option *ngFor="let category of CategoryOption" [value]="category.id">{{ category.name }}</option>
+            </select>
+          </div>
+          <br>
+
+          <div class="form-group mb-3">
+            <input type="text" id="name" formControlName="name" class="form-control" placeholder="Enter breed name" />
+          </div>
+          <div class="d-flex ">
+            <button type="submit" class="btn btn-success mx-3">Add</button>
+            <button type="button" class="btn btn-secondary" (click)="resetAddForm()">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- search Breed -->
+
+  <div class="row d-flex ">
+    <div class="col-md-4">
+      <label for="category">Search Breed:</label><br>
+      <div class="form-group " style="border: .5px solid rgb(218, 205, 205); border-radius: 25px;">
+
+        <input type="text" id="breed" aria-placeholder="Search breed" class="form-control border-0 ml-1"
+          (change)="onSearchBreed($event)">
+
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="category">Select Category:</label><br>
+        <select id="category" aria-placeholder="Select Category" class="form-control "
+          (change)="onCategoryChange($event)" style="border-radius: 25px;">
+          <option value='' selected> All </option>
+          <option *ngFor="let category of CategoryOption" [value]="category.id">{{ category.name }}</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- List of Breeds -->
+<div class="row justify-content-center mt-4">
+  <div class="col-md-10">
+    <h3 class="text-success"> Breeds</h3>
+    <ul class="list-group">
+      <li *ngFor="let breed of breeds"
+        class="list-group-item d-flex justify-content-between align-items-center mb-2 fs-5">
+
+        <span>{{ breed.name }} </span>
+      </li>
+    </ul>
+  </div>
+</div>

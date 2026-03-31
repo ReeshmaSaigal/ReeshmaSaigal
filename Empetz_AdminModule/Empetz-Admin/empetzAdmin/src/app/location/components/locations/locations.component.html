@@ -1,0 +1,51 @@
+<div class="container mt-4">
+    <!-- Add location Button -->
+
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class=" col-md-12 p-4">
+            <h3 class="text-primary mb-4" (click)="toggleForm()">
+                {{ isVisibleAddForm ? 'Cancel' : 'Add Location' }}</h3>
+            <div *ngIf="isVisibleAddForm" class="card p-3 mb-3">
+                <form [formGroup]="addLocationForm" (ngSubmit)="onAddSubmit()">
+                    <div class="form-group mb-3">
+                        <input type="text" id="name" formControlName="name" class="form-control"
+                            placeholder="Enter location name" />
+                    </div>
+                    <div class="d-flex ">
+                        <button type="submit" class="btn btn-success mx-3">Add</button>
+                        <button type="button" class="btn btn-secondary" (click)="resetAddForm()">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- search location -->
+
+    <!-- <div class="row d-flex ">
+        <div class="col-md-4">
+            <label for="location">Search Location:</label><br>
+            <div class="form-group " style="border: .5px solid rgb(218, 205, 205); border-radius: 25px;">
+
+                <input type="text" id="location" aria-placeholder="Search location" class="form-control border-0 ml-1"
+                    (change)="onSearchLocation($event)">
+
+            </div>
+        </div>
+    </div> -->
+</div>
+
+
+<!-- List of locations -->
+<!-- <div class="row justify-content-center mt-4">
+    <div class="col-md-10">
+        <h3 class="text-success"> Location</h3>
+        <ul class="list-group">
+            <li *ngFor="let location of locations"
+                class="list-group-item d-flex justify-content-between align-items-center mb-2 fs-5">
+
+                <span>{{ location.name }} </span>
+            </li>
+        </ul>
+    </div>
+</div> -->

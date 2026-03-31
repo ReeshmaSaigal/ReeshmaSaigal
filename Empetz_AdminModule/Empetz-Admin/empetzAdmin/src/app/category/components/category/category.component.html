@@ -1,0 +1,114 @@
+<div class="container mt-4">
+  <!-- Search Input -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-12">
+
+      <div class="form-group">
+        <label for="category">Select Category:</label><br>
+        <select id="category" aria-placeholder="Select Category" class="form-control "
+          (change)="onCategoryChange($event)" style="border-radius: 25px;">
+          <option value="" selected> All</option>
+          <option *ngFor="let category of CategoryOption" [value]="category.id">{{ category.name }}</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <!-- Add Category Button -->
+  <button class="btn btn-primary mb-3" (click)="toggleForm()">Add Category
+    <!-- {{ isFormVisible ? 'Cancel' : 'Add Category' }} -->
+  </button>
+
+  <!-- Form for Adding New Category (Toggled) -->
+  <div *ngIf="isFormVisible " class="overlay d-flex align-items-center justify-content-center">
+    <div class="update-form-container p-4">
+      <h3 class="text-center mb-4"> ADD CATEGORY FORM</h3>
+      <form [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+        <div class="form-group mb-3">
+          <label for="name" class="form-label">Category Name</label>
+          <input type="text" id="name" formControlName="Name" class="form-control" placeholder="Enter category name">
+          <!-- <small *ngIf="categoryForm.get('Name')?.invalid && categoryForm.get('Name')?.touched" class="text-danger">
+          Category name is required.
+        </small> -->
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="image" class="form-label">Upload Image</label>
+          <input type="file" id="image" formControlName="ImageFile" class="form-control"
+            (change)=" onFileSelected($event)">
+          <small *ngIf="categoryForm.get('image')?.invalid && categoryForm.get('image')?.touched" class="text-danger">
+            Image is required.
+          </small>
+        </div>
+
+        <button type="submit" class="btn btn-success m-2" [disabled]="categoryForm.invalid">Submit</button>
+        <button type="button" class="btn btn-secondary " (click)="resetCategoryForm()">Cancel</button>
+
+      </form>
+    </div>
+  </div>
+    <!-- Display the List of Categories -->
+    <div class="row">
+      <div *ngFor="let category of categories" class="col-md-3 mb-3">
+        <div class="card h-100">
+          <div class="image-container">
+            <img [src]="category.imagePath" class="card-img-top img-fluid" alt="{{ category.name }}">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title text-uppercase" style="color: rgb(166, 135, 13);">{{ category.name }}</h5>
+            <!-- <button class="btn btn-primary" (click)="onUpdateClick(category)">Update</button> -->
+            <div class="d-flex justify-content-between">
+              <button type="submit" class="btn btn-success" (click)="onUpdateClick(category)">Update</button>
+              <button type="submit" class="btn btn-primary" (click)="onAddBreedClick(category)">Add Breed</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overlay for Update Form -->
+    <div *ngIf="isUpdateFormVisible" class="overlay d-flex align-items-center justify-content-center">
+      <div class="update-form-container p-4">
+        <h3 class="text-center mb-4">Update Category</h3>
+
+        <form [formGroup]="updateCategoryForm" (ngSubmit)="onUpdateSubmit()">
+          <div class="form-group mb-3">
+            <label for="categoryName">Category Name:</label>
+            <input type="text" id="categoryName" formControlName="Name" class="form-control"
+              placeholder="Enter category name" />
+          </div>
+
+          <div class="form-group mb-3">
+            <label for="categoryImage">Update Category Image:</label>
+            <input type="file" id="categoryImage" formControlName="ImageFile" (change)="onFileSelectedToUpdate($event)"
+              class="form-control" />
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-success">Update</button>
+            <button type="button" class="btn btn-secondary" (click)="resetUpdateForm()">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Form for Adding New breed (Toggled) -->
+
+    <div *ngIf="isBreedFormVisible " class="overlay d-flex align-items-center justify-content-center">
+      <div class="update-form-container p-4">
+        <h3 class="text-center mb-4"> ADD BREED FORM</h3>
+
+        <form [formGroup]="addBreedForm" (ngSubmit)="onAddBreedSubmit()">
+          <div class="form-group mb-3">
+            <label for="name">Breed Name:</label>
+            <input type="text" id="name" formControlName="name" class="form-control" placeholder="Enter breed name" />
+          </div>
+
+
+          <div class="d-flex ">
+            <button type="submit" class="btn btn-success mx-3">Add</button>
+            <button type="button" class="btn btn-secondary" (click)="resetAddBreedForm()">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>

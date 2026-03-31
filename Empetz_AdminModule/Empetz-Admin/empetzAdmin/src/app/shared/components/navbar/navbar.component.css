@@ -1,0 +1,8 @@
+.navbar-brand{
+    font-family: 'Poppins', sans-serif; /* Use a clean, modern font */
+    font-size: 1.8rem; /* Increase the font size */
+    font-weight: bold; /* Make it bold */
+    color: #0d0363; /* Choose a vibrant color, like coral */
+    text-transform: uppercase; /* Transform text to uppercase */
+    letter-spacing: 1px; /* Add some space between letters */
+}

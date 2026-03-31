@@ -1,0 +1,13 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 250px; /* Width of the sidebar */
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Add additional styles as needed */

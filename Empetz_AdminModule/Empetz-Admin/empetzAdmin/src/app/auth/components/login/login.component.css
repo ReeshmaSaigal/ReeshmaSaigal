@@ -1,0 +1,25 @@
+
+.btn-primary {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.form-control {
+    border-radius: 0.375rem;
+    margin-bottom: 10px;
+}
+body {
+    background-color: #f8f9fa;
+}
+.login-container {
+    margin-top: 100px;
+}
+.login-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
